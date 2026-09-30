@@ -7,7 +7,7 @@ project:
     - investigations/**/sources.yml
 
 website:
-  title: "The Public Record"
+  title: "A Dangerous Thing"
   description: "Transparent investigations built from public data."
   site-url: https://paul-j-hamilton.github.io/public-data-investigations
   open-graph: true
@@ -16,10 +16,8 @@ website:
     left:
       - href: index.qmd
         text: Investigations
-      - href: standards.qmd
-        text: How we work
-      - href: about.qmd
-        text: About
+      - href: philosophy.qmd
+        text: Philosophy
     right:
       - icon: github
         href: https://github.com/paul-j-hamilton/public-data-investigations
@@ -28,7 +26,7 @@ website:
     left: "Reporting and analysis are published with sources, code, and revision history."
     right:
       - text: "Methods"
-        href: standards.qmd
+        href: philosophy.qmd
       - text: "Source code"
         href: https://github.com/paul-j-hamilton/public-data-investigations
 

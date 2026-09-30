@@ -1,0 +1,26 @@
+---
+title: "Philosophy"
+---
+
+## What every investigation should contain
+
+It is not always possible, but I try to make sure every investigation contains the following.
+
+1. *A source ledger.* Every dataset has a publisher, original URL, retrieval date, description, and license or terms link.
+2. *A preserved snapshot.* The exact raw input used for publication is committed whenever its terms and size allow it. Large or restricted files receive a checksum and durable archive location instead.
+3. *A complete transformation path.* Scripts convert raw inputs into analysis-ready files without undocumented manual edits.
+4. *Visible analytical choices.* Definitions, exclusions, joins, missing-data treatment, and material assumptions are explained in ordinary language and code.
+5. *Reproducible outputs.* A single documented command rebuilds derived data and the site.
+6. *Limitations and uncertainty.* The article states what the evidence does not establish.
+
+## Evidence hierarchy
+
+Primary government and institutional sources are preferred. Mirrors and aggregators may aid discovery, but the article should link to the originating publisher whenever possible. A source's official status does not make it error-free; definitions, revisions, collection methods, and known limitations still require scrutiny.
+
+## Reproduction levels
+
+Each article declares one of these levels:
+
+- *Fully reproducible:* all necessary inputs and code are included or openly downloadable.
+- *Reproducible with external data:* code is complete, but a documented download is required because data is too large to commit.
+- *Partially reproducible:* a legal, privacy, or access constraint prevents redistribution; the missing component and verification approach are stated prominently.

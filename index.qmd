@@ -1,6 +1,6 @@
 ---
-title: "The Public Record"
-subtitle: "Investigations you can inspect, reproduce, and challenge"
+title: "A Dangerous Thing"
+subtitle: "Transparent investigations built from public data."
 page-layout: full
 listing:
   contents: "investigations/*/index.qmd"
@@ -11,12 +11,16 @@ listing:
   image-height: 220px
 ---
 
-Every finding here begins with public data and ends with a public trail: original sources, preserved data, complete code, assumptions, limitations, and correction history.
+Every finding here begins with public data and ends with a public trail: original sources, preserved data, complete code, assumptions, and limitations. As much as possible, I try to be as transparent with callout blocks documenting:
 
-::: {.callout-note appearance="simple"}
-## The transparency promise
+::: {.callout-warning}
+## Assumption / Data Processing Decision
 
-Every investigation includes a source ledger, methodology, downloadable data, and the code needed to reproduce its results. The public repository records every revision.
+:::
+
+::: {.callout-important}
+## Issue / Limitation
+
 :::
 
 ## Latest investigations
