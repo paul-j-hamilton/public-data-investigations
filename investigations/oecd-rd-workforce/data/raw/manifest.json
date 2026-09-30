@@ -1,0 +1,20 @@
+{
+  "retrieved_at_utc": "2026-09-30T03:12:43+00:00",
+  "files": [
+    {
+      "path": "oecd-msti-rd-personnel.csv",
+      "source_url": "https://sdmx.oecd.org/public/rest/data/OECD.STI.STP,DSD_MSTI@DF_MSTI,/.A.T_RS+T_TT+B_RS+G_RS+H_RS+TOT_EMP...?dimensionAtObservation=AllDimensions",
+      "accept_header": "application/vnd.sdmx.data+csv; charset=utf-8",
+      "sha256": "ede999088bad32a973dd1f8ebe6889be6f737e16b46f7a51c10d71100240f8d9",
+      "bytes": 2267654,
+      "records": 27330
+    },
+    {
+      "path": "oecd-msti-structure.json",
+      "source_url": "https://sdmx.oecd.org/public/rest/dataflow/OECD.STI.STP/DSD_MSTI@DF_MSTI/latest?references=all",
+      "accept_header": "application/vnd.sdmx.structure+json; charset=utf-8; version=1.0",
+      "sha256": "fa9033cedc8cc773d64e2f8145f873d6db9d62756290dc77a4673715f8e32b9b",
+      "bytes": 348285
+    }
+  ]
+}

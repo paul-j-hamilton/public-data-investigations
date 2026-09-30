@@ -1,0 +1,1446 @@
+country_code,country,is_aggregate,year,researchers_per_1000,rd_personnel_per_1000,researchers_flags,rd_personnel_flags,researchers_break
+AUS,Australia,false,1981,3.6526,6.7192,Estimated value,Estimated value,false
+AUS,Australia,false,1984,4.1967,7.4752,Estimated value; Unrevised breakdown not adding to the revised total,Estimated value,false
+AUS,Australia,false,1985,4.2022,7.4937,Estimated value,Estimated value,false
+AUS,Australia,false,1986,4.8093,8.2485,Estimated value,Estimated value,false
+AUS,Australia,false,1987,4.9035,8.3707,Estimated value,Estimated value,false
+AUS,Australia,false,1988,5.1161,8.4296,Estimated value,Estimated value,false
+AUS,Australia,false,1990,5.361,8.5734,Estimated value,Estimated value,false
+AUS,Australia,false,1992,6.6244,10.0985,Estimated value,Estimated value,false
+AUS,Australia,false,1994,6.8344,10.4406,,,false
+AUS,Australia,false,1996,7.1298,10.5931,,,false
+AUS,Australia,false,1998,7.1034,10.3485,,,false
+AUS,Australia,false,2000,7.1479,10.3556,,,false
+AUS,Australia,false,2002,7.6464,11.2031,,,false
+AUS,Australia,false,2004,8.0978,11.5888,,,false
+AUS,Australia,false,2006,8.2243,11.9498,,,false
+AUS,Australia,false,2008,8.3807,12.4368,,,false
+AUT,Austria,false,1981,1.9385,5.3715,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,1985,2.2271,5.901,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,1989,2.5168,6.6156,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,1993,3.5606,6.7924,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,1998,5.1071,8.5436,Definition differs,Definition differs,false
+AUT,Austria,false,2002,6.384,10.2924,Definition differs,Definition differs,false
+AUT,Austria,false,2004,6.7812,11.206,Definition differs,Definition differs,false
+AUT,Austria,false,2005,7.3497,12.2948,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2006,7.4084,12.5281,Definition differs,Definition differs,false
+AUT,Austria,false,2007,7.8927,13.2691,Definition differs,Definition differs,false
+AUT,Austria,false,2008,8.4384,14.1864,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2009,8.5221,13.8753,Definition differs,Definition differs,false
+AUT,Austria,false,2010,8.926,14.6218,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2011,8.9174,14.6975,Definition differs,Definition differs,false
+AUT,Austria,false,2012,9.4409,15.4782,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2013,9.5703,15.6688,Definition differs,Definition differs,false
+AUT,Austria,false,2014,9.9917,16.4402,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2015,10.1496,16.6348,Definition differs,Definition differs,false
+AUT,Austria,false,2016,10.8075,17.2866,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2017,10.7511,17.1964,Definition differs,Definition differs,false
+AUT,Austria,false,2018,11.1454,17.8271,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2019,11.6035,18.3873,Definition differs,Definition differs,false
+AUT,Austria,false,2020,11.5953,18.3346,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2021,12.3825,19.1561,Definition differs,Definition differs,false
+AUT,Austria,false,2022,12.7166,19.6731,Definition differs; Estimated value,Definition differs; Estimated value,false
+AUT,Austria,false,2023,12.8178,19.8025,Definition differs,Definition differs,false
+AUT,Austria,false,2024,13.0669,20.1871,Definition differs; Provisional value,Definition differs; Provisional value,false
+BEL,Belgium,false,1981,3.4138,8.7122,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1982,3.6385,8.9653,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1983,3.6921,9.0803,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1984,3.8245,9.1831,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1985,4.0394,9.5405,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1986,4.2709,9.8453,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1987,4.3322,9.9163,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1988,4.4087,9.7385,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1989,4.5959,10.4502,Time series break; Definition differs; Estimated value,Time series break; Definition differs; Estimated value,true
+BEL,Belgium,false,1991,4.6565,10.3039,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1993,5.4375,9.5347,Time series break; Definition differs; Estimated value,Time series break; Definition differs; Estimated value,true
+BEL,Belgium,false,1994,5.873,10.0908,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,1995,6.0247,10.2961,Definition differs,Definition differs,false
+BEL,Belgium,false,1996,6.4784,10.9761,Definition differs,Definition differs,false
+BEL,Belgium,false,1997,6.7248,11.3198,Definition differs,Definition differs,false
+BEL,Belgium,false,1998,6.9433,11.6803,Definition differs,Definition differs,false
+BEL,Belgium,false,1999,7.3799,12.2783,Definition differs,Definition differs,false
+BEL,Belgium,false,2000,7.4311,12.9916,Definition differs,Definition differs,false
+BEL,Belgium,false,2001,7.738,13.4299,Definition differs,Definition differs,false
+BEL,Belgium,false,2002,7.3448,12.4666,Definition differs,Definition differs,false
+BEL,Belgium,false,2003,7.4113,12.5267,Definition differs,Definition differs,false
+BEL,Belgium,false,2004,7.6909,12.4033,Definition differs,Definition differs,false
+BEL,Belgium,false,2005,7.7567,12.5239,Definition differs,Definition differs,false
+BEL,Belgium,false,2006,8.0712,12.8925,Definition differs,Definition differs,false
+BEL,Belgium,false,2007,8.2666,13.1933,Definition differs,Definition differs,false
+BEL,Belgium,false,2008,8.224,13.0771,Definition differs,Definition differs,false
+BEL,Belgium,false,2009,8.5598,13.3811,Time series break; Definition differs,Time series break; Definition differs,true
+BEL,Belgium,false,2010,9.0803,13.3594,Definition differs,Definition differs,false
+BEL,Belgium,false,2011,9.377,13.8163,Definition differs,Definition differs,false
+BEL,Belgium,false,2012,9.9923,14.6838,Definition differs,Definition differs,false
+BEL,Belgium,false,2013,10.1819,14.9139,Definition differs,Definition differs,false
+BEL,Belgium,false,2014,11.1223,15.9317,Definition differs,Definition differs,false
+BEL,Belgium,false,2015,11.5416,16.8247,Time series break; Definition differs,Time series break; Definition differs,true
+BEL,Belgium,false,2016,11.6351,16.9573,Definition differs; Estimated value,Definition differs; Estimated value,false
+BEL,Belgium,false,2017,11.4071,17.4635,Definition differs,Definition differs,false
+BEL,Belgium,false,2018,11.9591,18.4401,Definition differs,Definition differs,false
+BEL,Belgium,false,2019,12.4211,19.1636,Definition differs,Definition differs,false
+BEL,Belgium,false,2020,12.8096,19.6849,Definition differs,Definition differs,false
+BEL,Belgium,false,2021,13.4527,20.868,Definition differs,Definition differs,false
+BEL,Belgium,false,2022,13.3417,20.402,Definition differs,Definition differs,false
+BEL,Belgium,false,2023,13.7644,20.7214,Definition differs,Definition differs,false
+BEL,Belgium,false,2024,14.1912,21.3417,Definition differs; Provisional value,Definition differs; Provisional value,false
+BGR,Bulgaria,false,1995,3.976,7.1208,,,false
+BGR,Bulgaria,false,1996,4.0805,7.236,,,false
+BGR,Bulgaria,false,1997,3.419,5.3155,,,false
+BGR,Bulgaria,false,1998,3.4522,5.5122,,,false
+BGR,Bulgaria,false,1999,3.1885,4.8482,,,false
+BGR,Bulgaria,false,2000,2.9263,4.7107,,,false
+BGR,Bulgaria,false,2001,2.8671,4.6501,,,false
+BGR,Bulgaria,false,2002,2.8624,4.6643,,,false
+BGR,Bulgaria,false,2003,2.8905,4.6582,,,false
+BGR,Bulgaria,false,2004,2.8874,4.5975,,,false
+BGR,Bulgaria,false,2005,2.8762,4.5356,,,false
+BGR,Bulgaria,false,2006,2.8615,4.5185,,,false
+BGR,Bulgaria,false,2007,3.0061,4.5455,,,false
+BGR,Bulgaria,false,2008,2.9843,4.5139,,,false
+BGR,Bulgaria,false,2009,3.1921,4.8622,,,false
+BGR,Bulgaria,false,2010,3.0464,4.5989,,,false
+BGR,Bulgaria,false,2011,3.3769,4.8193,,,false
+BGR,Bulgaria,false,2012,3.2883,4.8766,,,false
+BGR,Bulgaria,false,2013,3.5875,5.1278,,,false
+BGR,Bulgaria,false,2014,3.844,5.6302,,,false
+BGR,Bulgaria,false,2015,4.1309,6.5266,,,false
+BGR,Bulgaria,false,2016,4.6201,7.2358,,,false
+BGR,Bulgaria,false,2017,4.2816,6.6064,,,false
+BGR,Bulgaria,false,2018,4.6913,7.3287,,,false
+BGR,Bulgaria,false,2019,4.8851,7.6129,,,false
+BGR,Bulgaria,false,2020,4.9003,7.6583,,,false
+BGR,Bulgaria,false,2021,4.7617,7.3706,,,false
+BGR,Bulgaria,false,2022,5.0769,7.8649,,,false
+BGR,Bulgaria,false,2023,4.6981,7.2988,Definition differs,Definition differs,false
+BGR,Bulgaria,false,2024,5.0022,7.5233,Definition differs,Definition differs,false
+CAN,Canada,false,1981,3.5181,7.776,,,false
+CAN,Canada,false,1982,3.9783,8.3939,,,false
+CAN,Canada,false,1983,4.0787,8.4787,,,false
+CAN,Canada,false,1984,4.251,8.556,,,false
+CAN,Canada,false,1985,4.4188,8.5877,,,false
+CAN,Canada,false,1986,4.6874,8.8751,,,false
+CAN,Canada,false,1987,4.7106,8.7767,,,false
+CAN,Canada,false,1988,4.7889,8.8406,,,false
+CAN,Canada,false,1989,4.7892,8.6761,,,false
+CAN,Canada,false,1990,4.9014,8.6544,,,false
+CAN,Canada,false,1991,5.139,8.8948,,,false
+CAN,Canada,false,1992,5.5224,9.3766,,,false
+CAN,Canada,false,1993,5.7377,9.6711,,,false
+CAN,Canada,false,1994,6.4041,10.708,,,false
+CAN,Canada,false,1995,6.4127,10.6392,,,false
+CAN,Canada,false,1996,6.5731,10.4397,,,false
+CAN,Canada,false,1997,6.6386,10.3797,,,false
+CAN,Canada,false,1998,6.6342,10.3025,,,false
+CAN,Canada,false,1999,6.6974,10.4107,,,false
+CAN,Canada,false,2000,7.1621,11.1473,,,false
+CAN,Canada,false,2001,7.5311,11.7844,,,false
+CAN,Canada,false,2002,7.4432,11.7618,,,false
+CAN,Canada,false,2003,7.7417,12.3372,,,false
+CAN,Canada,false,2004,8.0585,13.0087,,,false
+CAN,Canada,false,2005,8.322,13.3073,,,false
+CAN,Canada,false,2006,8.4364,13.7379,,,false
+CAN,Canada,false,2007,8.8983,14.6202,,,false
+CAN,Canada,false,2008,9.1131,14.8783,,,false
+CAN,Canada,false,2009,8.8366,13.9273,,,false
+CAN,Canada,false,2010,9.133,13.4157,,,false
+CAN,Canada,false,2011,9.3531,13.5918,,,false
+CAN,Canada,false,2012,9.0414,12.9371,,,false
+CAN,Canada,false,2013,9.0072,12.8561,,,false
+CAN,Canada,false,2014,8.9131,13.0134,Time series break,Time series break,true
+CAN,Canada,false,2015,8.8768,13.346,,,false
+CAN,Canada,false,2016,8.603,12.3694,,,false
+CAN,Canada,false,2017,8.5722,12.2553,,,false
+CAN,Canada,false,2018,9.0753,13.01,,,false
+CAN,Canada,false,2019,9.256,13.016,,,false
+CAN,Canada,false,2020,11.0635,15.435,,,false
+CAN,Canada,false,2021,11.0055,15.3074,,,false
+CAN,Canada,false,2022,11.2245,15.7344,,,false
+CAN,Canada,false,2023,11.3211,15.7095,,,false
+CHE,Switzerland,false,1986,,13.0849,,Estimated value,
+CHE,Switzerland,false,1989,,13.7361,,Time series break; Estimated value,
+CHE,Switzerland,false,1992,4.4515,12.0324,Estimated value,Estimated value,false
+CHE,Switzerland,false,1996,5.6612,12.8449,,,false
+CHE,Switzerland,false,2000,6.4909,13.0004,,,false
+CHE,Switzerland,false,2004,6.1732,12.6988,,,false
+CHE,Switzerland,false,2008,5.652,13.9528,,,false
+CHE,Switzerland,false,2012,7.6472,16.1292,,,false
+CHE,Switzerland,false,2015,8.9313,16.6255,,,false
+CHE,Switzerland,false,2017,8.8328,15.7421,,,false
+CHE,Switzerland,false,2019,9.3174,16.9021,,,false
+CHE,Switzerland,false,2021,10.192,17.8007,,,false
+CHE,Switzerland,false,2023,10.1838,18.2344,,,false
+CHL,Chile,false,2007,0.8459,1.6799,Definition differs; Estimated value,Definition differs; Estimated value,false
+CHL,Chile,false,2008,0.8825,1.8618,Definition differs; Estimated value,Definition differs; Estimated value,false
+CHL,Chile,false,2009,0.7244,1.5549,Definition differs; Estimated value; Underestimated or based on underestimated data,Definition differs; Estimated value; Underestimated or based on underestimated data,false
+CHL,Chile,false,2010,0.7389,1.5607,Definition differs; Estimated value; Underestimated or based on underestimated data,Definition differs; Estimated value; Underestimated or based on underestimated data,false
+CHL,Chile,false,2011,0.7863,1.6883,Definition differs; Estimated value,Definition differs; Estimated value,false
+CHL,Chile,false,2012,0.8634,1.8582,Definition differs; Estimated value,Definition differs; Estimated value,false
+CHL,Chile,false,2013,0.733,1.6454,Definition differs,Definition differs,false
+CHL,Chile,false,2014,0.9303,1.9485,Definition differs,Definition differs,false
+CHL,Chile,false,2015,0.9858,1.8403,Definition differs,Definition differs,false
+CHL,Chile,false,2016,1.071,1.9816,Definition differs,Definition differs,false
+CHL,Chile,false,2017,1.059,1.9329,Definition differs,Definition differs,false
+CHL,Chile,false,2018,1.1162,1.9181,Definition differs; Estimated value,Definition differs; Estimated value,false
+CHL,Chile,false,2019,1.0775,1.8296,Definition differs; Estimated value,Definition differs; Estimated value,false
+CHL,Chile,false,2020,1.2624,2.0716,Definition differs; Estimated value,Definition differs; Estimated value,false
+CHL,Chile,false,2021,1.4964,2.4334,Time series break; Definition differs,Time series break; Definition differs,true
+CHL,Chile,false,2022,1.5619,2.4807,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,1991,0.7198,1.0238,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1992,0.7134,1.0193,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1993,0.7322,1.0445,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1994,0.8183,1.1611,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1995,0.7669,1.1044,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1996,0.7948,1.1661,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1997,0.8432,1.1905,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1998,0.6873,1.0691,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,1999,0.7439,1.1509,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+CHN,China (People’s Republic of),false,2000,0.9642,1.2792,Time series break; Definition differs,Time series break; Definition differs,true
+CHN,China (People’s Republic of),false,2001,1.0203,1.3139,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2002,1.1061,1.4127,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2003,1.1692,1.4848,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2004,1.2472,1.5521,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2005,1.4987,1.8283,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2006,1.6322,2.0039,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2007,1.8898,2.305,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2008,2.1074,2.6009,Definition differs,Definition differs,false
+CHN,China (People’s Republic of),false,2009,1.5196,3.0216,Time series break,Time series break,true
+CHN,China (People’s Republic of),false,2010,1.591,3.3557,,,false
+CHN,China (People’s Republic of),false,2011,1.7299,3.7835,,,false
+CHN,China (People’s Republic of),false,2012,1.8412,4.2579,,,false
+CHN,China (People’s Republic of),false,2013,1.945,4.6301,,,false
+CHN,China (People’s Republic of),false,2014,1.9965,4.86,,,false
+CHN,China (People’s Republic of),false,2015,2.1214,4.9251,,,false
+CHN,China (People’s Republic of),false,2016,2.2194,5.0863,,,false
+CHN,China (People’s Republic of),false,2017,2.2883,5.3033,,,false
+CHN,China (People’s Republic of),false,2018,2.4625,5.7816,,,false
+CHN,China (People’s Republic of),false,2019,2.7959,6.3631,,,false
+CHN,China (People’s Republic of),false,2020,3.0389,6.9734,,,false
+CHN,China (People’s Republic of),false,2021,3.2223,7.6573,,,false
+CHN,China (People’s Republic of),false,2022,3.5953,8.6619,,,false
+CHN,China (People’s Republic of),false,2023,4.0536,9.7792,,,false
+CHN,China (People’s Republic of),false,2024,4.3299,10.3063,,,false
+CRI,Costa Rica,false,2014,1.5668,,,,false
+CRI,Costa Rica,false,2015,1.4487,,,,false
+CRI,Costa Rica,false,2016,1.5828,,,,false
+CRI,Costa Rica,false,2017,1.1146,,,,false
+CRI,Costa Rica,false,2018,0.9951,,,,false
+CRI,Costa Rica,false,2020,0.9829,,,,false
+CRI,Costa Rica,false,2021,1.0229,,,,false
+CRI,Costa Rica,false,2022,1.1045,,Time series break,,true
+CRI,Costa Rica,false,2023,1.2482,,Time series break,,true
+CRI,Costa Rica,false,2024,0.9695,,Estimated value,,false
+CZE,Czechia,false,1995,2.3379,4.4418,,,false
+CZE,Czechia,false,1996,2.5259,4.5793,,,false
+CZE,Czechia,false,1997,2.4686,4.5585,,,false
+CZE,Czechia,false,1998,2.5094,4.5411,,,false
+CZE,Czechia,false,1999,2.7624,4.9199,,,false
+CZE,Czechia,false,2000,2.8506,4.9797,,,false
+CZE,Czechia,false,2001,3.0924,5.3869,,,false
+CZE,Czechia,false,2002,3.0705,5.338,,,false
+CZE,Czechia,false,2003,3.2676,5.7786,,,false
+CZE,Czechia,false,2004,3.3755,5.9569,,,false
+CZE,Czechia,false,2005,4.9098,8.8104,Time series break,Time series break,true
+CZE,Czechia,false,2006,5.2651,9.5669,,,false
+CZE,Czechia,false,2007,5.4736,9.6584,,,false
+CZE,Czechia,false,2008,5.7234,9.7631,,,false
+CZE,Czechia,false,2009,5.6279,9.9726,,,false
+CZE,Czechia,false,2010,5.7794,10.3397,,,false
+CZE,Czechia,false,2011,6.0974,11.0688,,,false
+CZE,Czechia,false,2012,6.5669,11.9269,,,false
+CZE,Czechia,false,2013,6.7504,12.2074,,,false
+CZE,Czechia,false,2014,7.0611,12.6261,,,false
+CZE,Czechia,false,2015,7.3585,12.8371,,,false
+CZE,Czechia,false,2016,7.1411,12.5815,,,false
+CZE,Czechia,false,2017,7.3952,13.1623,,,false
+CZE,Czechia,false,2018,7.6875,13.9891,,,false
+CZE,Czechia,false,2019,7.942,14.8084,,,false
+CZE,Czechia,false,2020,8.4569,15.4877,,,false
+CZE,Czechia,false,2021,9.1074,16.0384,,,false
+CZE,Czechia,false,2022,9.2634,16.1491,,,false
+CZE,Czechia,false,2023,9.0016,15.7735,,,false
+CZE,Czechia,false,2024,8.9103,15.5836,Provisional value,Provisional value,false
+DEU,Germany,false,1981,4.6698,12.8248,,,false
+DEU,Germany,false,1983,4.9837,13.4067,,,false
+DEU,Germany,false,1985,5.3397,14.1603,,,false
+DEU,Germany,false,1987,5.8048,14.693,Time series break,Time series break,true
+DEU,Germany,false,1988,,14.6007,,Estimated value,
+DEU,Germany,false,1989,5.9838,14.4656,,,false
+DEU,Germany,false,1990,,14.1767,,Estimated value,
+DEU,Germany,false,1991,6.222,13.2825,Time series break,Time series break,true
+DEU,Germany,false,1992,,12.713,,Estimated value,
+DEU,Germany,false,1993,6.077,12.5487,,,false
+DEU,Germany,false,1995,6.075,12.068,,,false
+DEU,Germany,false,1996,6.0477,11.9195,Estimated value,Estimated value,false
+DEU,Germany,false,1997,6.1977,12.1017,,,false
+DEU,Germany,false,1998,6.1743,11.988,Estimated value,Estimated value,false
+DEU,Germany,false,1999,6.5097,12.2581,,,false
+DEU,Germany,false,2000,6.4507,12.1256,Estimated value,Estimated value,false
+DEU,Germany,false,2001,6.632,12.0558,,,false
+DEU,Germany,false,2002,6.6999,12.0987,Estimated value,Estimated value,false
+DEU,Germany,false,2003,6.8527,12.0403,,,false
+DEU,Germany,false,2004,6.8635,11.9565,,,false
+DEU,Germany,false,2005,6.921,12.0868,,,false
+DEU,Germany,false,2006,7.0648,12.3191,,,false
+DEU,Germany,false,2007,7.2206,12.5729,,,false
+DEU,Germany,false,2008,7.4084,12.815,Estimated value,,false
+DEU,Germany,false,2009,7.7575,13.0791,,,false
+DEU,Germany,false,2010,7.9806,13.3512,Estimated value,,false
+DEU,Germany,false,2011,8.1474,13.8345,,,false
+DEU,Germany,false,2012,8.378,14.0559,,,false
+DEU,Germany,false,2013,8.3643,13.8896,,,false
+DEU,Germany,false,2014,8.231,14.156,,,false
+DEU,Germany,false,2015,8.9942,14.8484,,,false
+DEU,Germany,false,2016,9.1472,15.0596,,,false
+DEU,Germany,false,2017,9.4743,15.4967,,,false
+DEU,Germany,false,2018,9.6636,15.7695,,,false
+DEU,Germany,false,2019,9.9511,16.2413,,,false
+DEU,Germany,false,2020,10.0253,16.3197,,,false
+DEU,Germany,false,2021,10.2494,16.739,,,false
+DEU,Germany,false,2022,10.6514,17.2132,Provisional value,Provisional value,false
+DEU,Germany,false,2023,10.8886,17.947,Provisional value,Provisional value,false
+DEU,Germany,false,2024,11.1575,18.2595,Provisional value,Provisional value,false
+DNK,Denmark,false,1981,2.7406,6.6549,Definition differs,,false
+DNK,Denmark,false,1982,2.9173,6.9303,Definition differs,,false
+DNK,Denmark,false,1983,3.0843,7.2897,Definition differs,,false
+DNK,Denmark,false,1984,3.2174,7.5372,Definition differs,,false
+DNK,Denmark,false,1985,3.3162,7.7084,Definition differs,,false
+DNK,Denmark,false,1986,3.4649,7.9099,Definition differs,,false
+DNK,Denmark,false,1987,3.6658,8.2328,Definition differs,,false
+DNK,Denmark,false,1988,3.9074,8.7222,Definition differs,,false
+DNK,Denmark,false,1989,4.1441,9.2011,Definition differs,,false
+DNK,Denmark,false,1990,4.3677,9.5088,Definition differs,,false
+DNK,Denmark,false,1991,4.6191,9.8737,Definition differs,,false
+DNK,Denmark,false,1992,4.9705,10.2699,Definition differs,,false
+DNK,Denmark,false,1993,5.3715,10.7603,Definition differs,,false
+DNK,Denmark,false,1995,6.1079,11.5665,Definition differs,,false
+DNK,Denmark,false,1996,6.3302,12.1866,Definition differs; Estimated value,Estimated value,false
+DNK,Denmark,false,1997,6.5476,12.783,Definition differs,,false
+DNK,Denmark,false,1998,,12.9766,,,
+DNK,Denmark,false,1999,6.9275,13.3291,Definition differs,,false
+DNK,Denmark,false,2000,,13.6809,,,
+DNK,Denmark,false,2001,6.9913,14.3369,Definition differs,,false
+DNK,Denmark,false,2002,9.1757,15.2309,Time series break,,true
+DNK,Denmark,false,2003,9.0196,15.0825,,,false
+DNK,Denmark,false,2004,9.5355,15.5558,,,false
+DNK,Denmark,false,2005,10.1248,15.6292,,,false
+DNK,Denmark,false,2006,10.136,15.769,,,false
+DNK,Denmark,false,2007,10.3605,16.1025,Time series break,Time series break,true
+DNK,Denmark,false,2008,12.1069,19.8682,Estimated value,Estimated value,false
+DNK,Denmark,false,2009,12.8798,19.5769,,,false
+DNK,Denmark,false,2010,13.4183,20.2961,,,false
+DNK,Denmark,false,2011,14.0604,20.6648,,,false
+DNK,Denmark,false,2012,14.4843,20.8641,,,false
+DNK,Denmark,false,2013,14.4019,20.8594,,,false
+DNK,Denmark,false,2014,14.8622,20.9465,,,false
+DNK,Denmark,false,2015,15.1481,21.3087,,,false
+DNK,Denmark,false,2016,15.5965,21.8761,,,false
+DNK,Denmark,false,2017,15.0742,20.6539,,,false
+DNK,Denmark,false,2018,14.8301,20.183,,,false
+DNK,Denmark,false,2019,14.8696,20.7141,Provisional value,Provisional value,false
+DNK,Denmark,false,2020,14.9967,20.886,Provisional value,Provisional value,false
+DNK,Denmark,false,2021,14.8171,20.4626,Provisional value,Provisional value,false
+DNK,Denmark,false,2022,16.7916,22.3633,Definition differs,Definition differs,false
+DNK,Denmark,false,2023,16.4043,22.1181,Definition differs,Definition differs,false
+DNK,Denmark,false,2024,16.5247,22.2654,Definition differs; Provisional value,Definition differs; Provisional value,false
+ESP,Spain,false,1981,1.5602,2.933,,Estimated value,false
+ESP,Spain,false,1982,1.534,2.9019,,Estimated value,false
+ESP,Spain,false,1983,1.5942,2.9645,,Estimated value,false
+ESP,Spain,false,1984,1.7191,3.2937,,Estimated value,false
+ESP,Spain,false,1985,1.8173,3.4436,,Estimated value,false
+ESP,Spain,false,1986,2.0303,3.747,Definition differs; Estimated value,Estimated value,false
+ESP,Spain,false,1987,2.0906,3.8304,Estimated value,Estimated value,false
+ESP,Spain,false,1988,2.3791,4.1832,Estimated value,Estimated value,false
+ESP,Spain,false,1989,2.4244,4.6519,,Time series break; Estimated value,false
+ESP,Spain,false,1990,2.6736,4.9449,,Estimated value,false
+ESP,Spain,false,1991,2.8498,5.0772,,Estimated value,false
+ESP,Spain,false,1992,2.9639,5.2138,,Estimated value,false
+ESP,Spain,false,1993,3.1739,5.5427,,Estimated value,false
+ESP,Spain,false,1994,3.5199,5.9121,Estimated value,Estimated value,false
+ESP,Spain,false,1995,3.4162,5.7719,,,false
+ESP,Spain,false,1996,3.6728,6.2072,Estimated value,Estimated value,false
+ESP,Spain,false,1997,3.6947,5.9757,,,false
+ESP,Spain,false,1998,3.9592,6.3785,Estimated value,Estimated value,false
+ESP,Spain,false,1999,3.8684,6.4237,,,false
+ESP,Spain,false,2000,4.5832,7.2104,,,false
+ESP,Spain,false,2001,4.6327,7.2747,,,false
+ESP,Spain,false,2002,4.6986,7.5714,,,false
+ESP,Spain,false,2003,5.052,8.2717,,,false
+ESP,Spain,false,2004,5.3156,8.523,,,false
+ESP,Spain,false,2005,5.5391,8.8232,,,false
+ESP,Spain,false,2006,5.6139,9.1616,,,false
+ESP,Spain,false,2007,5.7579,9.4432,,,false
+ESP,Spain,false,2008,6.1461,10.1199,Time series break; Definition differs,Time series break; Definition differs,true
+ESP,Spain,false,2009,6.701,11.0567,Definition differs,Definition differs,false
+ESP,Spain,false,2010,6.868,11.3243,Definition differs,Definition differs,false
+ESP,Spain,false,2011,6.8078,11.2429,Definition differs,Definition differs,false
+ESP,Spain,false,2012,6.9241,11.4056,Definition differs,Definition differs,false
+ESP,Spain,false,2013,6.8814,11.3533,Definition differs,Definition differs,false
+ESP,Spain,false,2014,6.7561,11.0671,Definition differs,Definition differs,false
+ESP,Spain,false,2015,6.5774,10.7907,Definition differs,Definition differs,false
+ESP,Spain,false,2016,6.6605,10.8282,Definition differs,Definition differs,false
+ESP,Spain,false,2017,6.8271,11.0568,Definition differs,Definition differs,false
+ESP,Spain,false,2018,7.0277,11.3197,Definition differs,Definition differs,false
+ESP,Spain,false,2019,7.0344,11.3066,Definition differs,Definition differs,false
+ESP,Spain,false,2020,7.4294,11.8449,Definition differs,Definition differs,false
+ESP,Spain,false,2021,7.6784,12.4286,Definition differs,Definition differs,false
+ESP,Spain,false,2022,7.7661,12.647,Definition differs,Definition differs,false
+ESP,Spain,false,2023,8.1389,13.1313,Definition differs; Provisional value,Definition differs; Provisional value,false
+ESP,Spain,false,2024,8.3805,13.4214,Definition differs; Provisional value,Definition differs; Provisional value,false
+EST,Estonia,false,1998,4.9029,7.5733,,,false
+EST,Estonia,false,1999,5.1732,7.8322,,,false
+EST,Estonia,false,2000,4.5549,6.3386,,,false
+EST,Estonia,false,2001,4.4699,6.2759,,,false
+EST,Estonia,false,2002,5.198,7.0161,,,false
+EST,Estonia,false,2003,5.0191,6.894,,,false
+EST,Estonia,false,2004,5.6272,7.9088,,,false
+EST,Estonia,false,2005,5.4401,7.124,,,false
+EST,Estonia,false,2006,5.4703,7.3824,,,false
+EST,Estonia,false,2007,5.7352,7.7743,,,false
+EST,Estonia,false,2008,6.1969,7.9209,,,false
+EST,Estonia,false,2009,7.4818,9.4173,,,false
+EST,Estonia,false,2010,7.4384,9.6278,,,false
+EST,Estonia,false,2011,7.7243,9.8014,,,false
+EST,Estonia,false,2012,7.7203,9.8652,,,false
+EST,Estonia,false,2013,7.334,9.7487,,,false
+EST,Estonia,false,2014,7.141,9.5622,,,false
+EST,Estonia,false,2015,6.7218,9.048,,,false
+EST,Estonia,false,2016,6.9441,9.2396,,,false
+EST,Estonia,false,2017,7.286,9.4279,,,false
+EST,Estonia,false,2018,7.6739,9.5512,,,false
+EST,Estonia,false,2019,7.6189,9.7527,,,false
+EST,Estonia,false,2020,7.992,10.1106,,,false
+EST,Estonia,false,2021,8.407,10.6192,,,false
+EST,Estonia,false,2022,9.2878,12.0718,,,false
+EST,Estonia,false,2023,9.5183,12.722,,,false
+EST,Estonia,false,2024,10.908,14.2501,Definition differs,Definition differs,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,1991,,9.4059,,Estimated value,
+EU27_2020,European Union (27 countries from 01/02/2020),true,1993,4.6656,9.184,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,1995,4.7413,9.102,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,1996,4.8475,9.188,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,1997,4.8724,9.1378,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,1998,4.9468,9.2022,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,1999,5.0932,9.2955,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2000,5.2314,9.4565,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2001,5.3543,9.503,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2002,5.501,9.6607,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2003,5.6025,9.674,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2004,5.8121,9.8537,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2005,5.9987,10.0283,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2006,6.1329,10.2857,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2007,6.184,10.4153,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2008,6.4475,10.8067,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2009,6.6748,11.0679,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2010,7.0001,11.4587,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2011,7.1359,11.7226,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2012,7.3806,12.062,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2013,7.5835,12.212,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2014,7.6864,12.3717,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2015,7.9411,12.6344,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2016,8.0466,12.7271,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2017,8.3762,13.1929,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2018,8.6234,13.6743,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2019,8.8397,13.9336,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2020,9.1245,14.315,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2021,9.3546,14.6041,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2022,9.6049,14.8386,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2023,9.7891,15.1508,Estimated value,Estimated value,false
+EU27_2020,European Union (27 countries from 01/02/2020),true,2024,9.9516,15.2985,Estimated value,Estimated value,false
+FIN,Finland,false,1981,,7.5054,,,
+FIN,Finland,false,1983,3.9151,8.4025,Definition differs,,false
+FIN,Finland,false,1985,,9.7081,,,
+FIN,Finland,false,1987,,10.7457,,,
+FIN,Finland,false,1989,,11.5137,,,
+FIN,Finland,false,1991,,12.6839,,,
+FIN,Finland,false,1993,,14.8832,,,
+FIN,Finland,false,1994,,16.0253,,,
+FIN,Finland,false,1995,,16.3375,,,
+FIN,Finland,false,1997,,19.0594,,,
+FIN,Finland,false,1998,,21.0694,,,
+FIN,Finland,false,1999,,22.4577,,,
+FIN,Finland,false,2000,,22.8735,,,
+FIN,Finland,false,2001,,22.8749,,,
+FIN,Finland,false,2002,,23.2804,,,
+FIN,Finland,false,2003,,24.1334,,,
+FIN,Finland,false,2004,17.2103,24.4622,,,false
+FIN,Finland,false,2005,16.3636,23.7593,,,false
+FIN,Finland,false,2006,16.3979,23.6394,,,false
+FIN,Finland,false,2007,15.4828,22.3284,,,false
+FIN,Finland,false,2008,15.8747,22.018,,,false
+FIN,Finland,false,2009,16.2757,22.34,,,false
+FIN,Finland,false,2010,16.6299,22.4396,,,false
+FIN,Finland,false,2011,15.8194,21.5628,Time series break,Time series break,true
+FIN,Finland,false,2012,15.9061,21.2431,,,false
+FIN,Finland,false,2013,15.5306,20.989,,,false
+FIN,Finland,false,2014,15.2512,20.769,,,false
+FIN,Finland,false,2015,14.899,20.0029,,,false
+FIN,Finland,false,2016,14.1818,18.732,,,false
+FIN,Finland,false,2017,14.5434,19.2355,,,false
+FIN,Finland,false,2018,14.4977,19.135,,,false
+FIN,Finland,false,2019,15.0763,19.4161,,,false
+FIN,Finland,false,2020,16.1031,20.6637,,,false
+FIN,Finland,false,2021,16.4373,21.3186,,,false
+FIN,Finland,false,2022,16.3311,20.793,,,false
+FIN,Finland,false,2023,16.7805,21.561,,,false
+FIN,Finland,false,2024,17.8095,22.7884,,,false
+FRA,France,false,1981,3.7844,11.0211,,,false
+FRA,France,false,1982,3.9758,11.4291,,,false
+FRA,France,false,1983,4.0941,11.5374,,,false
+FRA,France,false,1984,4.3595,11.9802,,,false
+FRA,France,false,1985,4.5472,12.141,,,false
+FRA,France,false,1986,4.6437,12.1367,,,false
+FRA,France,false,1987,4.7954,12.1868,,,false
+FRA,France,false,1988,5.0006,12.2926,,,false
+FRA,France,false,1989,5.1391,12.3445,,,false
+FRA,France,false,1990,5.2405,12.3875,,,false
+FRA,France,false,1991,5.4734,12.6187,,,false
+FRA,France,false,1992,6.012,13.2041,,,false
+FRA,France,false,1993,6.2504,13.4594,,,false
+FRA,France,false,1994,6.3565,13.4276,,,false
+FRA,France,false,1995,6.3786,13.4271,,,false
+FRA,France,false,1996,6.4912,13.4498,,,false
+FRA,France,false,1997,6.4369,12.7362,Time series break,Time series break,true
+FRA,France,false,1998,6.3658,12.6379,,,false
+FRA,France,false,1999,6.4021,12.549,,,false
+FRA,France,false,2000,6.6979,12.7468,Time series break,Time series break,true
+FRA,France,false,2001,6.8066,12.7986,,,false
+FRA,France,false,2002,7.1185,12.9772,,,false
+FRA,France,false,2003,7.3592,13.0667,,,false
+FRA,France,false,2004,7.7149,13.4189,,,false
+FRA,France,false,2005,7.6669,13.239,,,false
+FRA,France,false,2006,7.8867,13.6999,,,false
+FRA,France,false,2007,8.1897,13.8519,,,false
+FRA,France,false,2008,8.3619,14.0536,Definition differs,Definition differs,false
+FRA,France,false,2009,8.7054,14.4942,Definition differs,Definition differs,false
+FRA,France,false,2010,9.0372,14.7601,Time series break,Time series break,true
+FRA,France,false,2011,9.1783,14.8215,,,false
+FRA,France,false,2012,9.5003,15.1095,Estimated value,Underestimated or based on underestimated data,false
+FRA,France,false,2013,9.7222,15.2605,Estimated value,Underestimated or based on underestimated data,false
+FRA,France,false,2014,9.8999,15.4416,Time series break,Time series break,true
+FRA,France,false,2015,10.1548,15.4946,,,false
+FRA,France,false,2016,10.299,15.5933,,,false
+FRA,France,false,2017,10.5653,15.7672,,,false
+FRA,France,false,2018,10.7822,16.0049,,,false
+FRA,France,false,2019,10.9334,16.1151,,,false
+FRA,France,false,2020,11.22,16.5526,,,false
+FRA,France,false,2021,11.3557,16.8821,,,false
+FRA,France,false,2022,11.4057,16.6769,,,false
+FRA,France,false,2023,11.7249,16.8853,Provisional value,Provisional value,false
+FRA,France,false,2024,11.8219,17.0073,Provisional value,Provisional value,false
+GBR,United Kingdom,false,1981,5.2527,12.9043,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1982,5.3919,12.9743,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1983,5.3602,12.7886,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1984,5.3249,12.2183,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1985,5.3513,11.8056,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1986,5.4557,11.8479,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1987,5.3346,11.4653,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1988,5.2656,11.1461,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1989,4.9705,10.5016,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1990,4.9476,10.416,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1991,4.9035,9.9985,Time series break; Estimated value,Estimated value,true
+GBR,United Kingdom,false,1992,5.0545,10.1089,Time series break; Estimated value,Time series break; Estimated value,true
+GBR,United Kingdom,false,1993,5.1718,10.1461,Estimated value,Estimated value,false
+GBR,United Kingdom,false,1994,5.2489,10.4892,Time series break; Estimated value,Estimated value,true
+GBR,United Kingdom,false,1995,5.6431,10.7249,,Estimated value,false
+GBR,United Kingdom,false,1996,5.5547,10.4228,,Estimated value,false
+GBR,United Kingdom,false,1997,5.4912,10.0562,,Estimated value,false
+GBR,United Kingdom,false,1998,5.8843,10.6178,,Estimated value,false
+GBR,United Kingdom,false,1999,6.1682,10.6727,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2000,6.2057,10.5009,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2001,6.5729,10.7972,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2002,7.0915,11.0498,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2003,7.6778,11.1911,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2004,8.0246,11.1759,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2005,8.616,11.261,Time series break; Estimated value,Time series break; Estimated value,true
+GBR,United Kingdom,false,2006,8.7167,11.4893,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2007,8.5998,11.7042,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2008,8.5033,11.5462,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2009,8.7851,11.9189,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2010,8.7791,12.0015,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2011,8.557,12.1282,,Estimated value,false
+GBR,United Kingdom,false,2012,8.6264,12.0051,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2013,8.9109,12.5606,,Estimated value,false
+GBR,United Kingdom,false,2014,8.9939,12.8861,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2015,9.1371,13.2504,,,false
+GBR,United Kingdom,false,2016,9.1699,13.3505,Estimated value,Estimated value,false
+GBR,United Kingdom,false,2017,9.2277,13.8683,,,false
+GRC,Greece,false,1993,1.9887,3.6028,Definition differs; Estimated value,Definition differs; Estimated value,false
+GRC,Greece,false,1995,2.3372,4.2314,Time series break; Definition differs,Time series break; Definition differs,true
+GRC,Greece,false,1997,2.6608,4.8918,Definition differs,Definition differs,false
+GRC,Greece,false,1999,3.4233,6.1239,Definition differs,Definition differs,false
+GRC,Greece,false,2001,3.3156,6.9735,Definition differs,Definition differs,false
+GRC,Greece,false,2003,3.4805,7.0916,Definition differs,Definition differs,false
+GRC,Greece,false,2005,4.2116,7.2231,Definition differs,Definition differs,false
+GRC,Greece,false,2006,4.1972,7.4088,Definition differs; Estimated value,Definition differs; Estimated value,false
+GRC,Greece,false,2007,4.3718,7.3919,Definition differs; Estimated value,Definition differs; Estimated value,false
+GRC,Greece,false,2011,5.4769,8.1936,Time series break; Definition differs,Time series break; Definition differs,true
+GRC,Greece,false,2012,5.733,8.6368,Definition differs,Definition differs,false
+GRC,Greece,false,2013,6.7962,9.8096,Definition differs,Definition differs,false
+GRC,Greece,false,2014,6.7083,9.7258,Definition differs,Definition differs,false
+GRC,Greece,false,2015,8.0295,11.4881,Definition differs,Definition differs,false
+GRC,Greece,false,2016,6.5786,9.35,Definition differs,Definition differs,false
+GRC,Greece,false,2017,7.8712,10.7013,Definition differs,Definition differs,false
+GRC,Greece,false,2018,7.8893,11.0269,Definition differs,Definition differs,false
+GRC,Greece,false,2019,8.2233,11.3495,Definition differs,Definition differs,false
+GRC,Greece,false,2020,9.2766,12.5499,Definition differs,Definition differs,false
+GRC,Greece,false,2021,9.3195,12.6814,Definition differs,Definition differs,false
+GRC,Greece,false,2022,10.2457,13.7584,Definition differs,Definition differs,false
+GRC,Greece,false,2023,10.6466,14.2652,Definition differs; Provisional value,Definition differs; Provisional value,false
+GRC,Greece,false,2024,9.8071,13.3637,Definition differs; Provisional value,Definition differs; Provisional value,false
+HRV,Croatia,false,2002,5.5347,8.368,,,false
+HRV,Croatia,false,2003,3.6965,5.7695,,,false
+HRV,Croatia,false,2004,4.4693,6.9869,,,false
+HRV,Croatia,false,2005,3.5521,5.7499,,,false
+HRV,Croatia,false,2006,3.4766,5.7259,,,false
+HRV,Croatia,false,2007,3.5782,5.9104,,,false
+HRV,Croatia,false,2008,3.8312,6.0548,,,false
+HRV,Croatia,false,2009,3.9911,6.3428,,,false
+HRV,Croatia,false,2010,4.2529,6.501,,,false
+HRV,Croatia,false,2011,4.2679,6.6211,,,false
+HRV,Croatia,false,2012,4.3093,6.6809,Time series break,Time series break,true
+HRV,Croatia,false,2013,4.3424,6.9492,,,false
+HRV,Croatia,false,2014,3.964,6.4971,,,false
+HRV,Croatia,false,2015,4.0831,6.826,,,false
+HRV,Croatia,false,2016,5.0215,7.4382,,,false
+HRV,Croatia,false,2017,4.9793,7.504,,,false
+HRV,Croatia,false,2018,5.0486,8.2375,,,false
+HRV,Croatia,false,2019,5.4784,9.0012,,,false
+HRV,Croatia,false,2020,5.7392,9.7729,,,false
+HRV,Croatia,false,2021,5.896,10.2496,,,false
+HRV,Croatia,false,2022,6.0352,10.4666,,,false
+HRV,Croatia,false,2023,5.7007,9.9745,Definition differs,Definition differs,false
+HRV,Croatia,false,2024,5.3078,9.3831,Definition differs; Provisional value,Definition differs; Provisional value,false
+HUN,Hungary,false,1992,2.793,5.4884,Definition differs; Estimated value,Definition differs; Estimated value,false
+HUN,Hungary,false,1993,2.8605,5.4724,Definition differs; Estimated value,Definition differs; Estimated value,false
+HUN,Hungary,false,1994,2.9015,5.4337,Definition differs; Estimated value,Definition differs; Estimated value,false
+HUN,Hungary,false,1995,2.6842,5.0071,Definition differs,Definition differs,false
+HUN,Hungary,false,1996,2.6657,5.0651,Definition differs,Definition differs,false
+HUN,Hungary,false,1997,2.8273,5.2617,Definition differs,Definition differs,false
+HUN,Hungary,false,1998,2.9468,5.103,Definition differs,Definition differs,false
+HUN,Hungary,false,1999,3.099,5.2547,Definition differs,Definition differs,false
+HUN,Hungary,false,2000,3.5259,5.76,Definition differs,Definition differs,false
+HUN,Hungary,false,2001,3.5815,5.6026,Definition differs,Definition differs,false
+HUN,Hungary,false,2002,3.659,5.7955,Definition differs,Definition differs,false
+HUN,Hungary,false,2003,3.6404,5.5903,Definition differs,Definition differs,false
+HUN,Hungary,false,2004,3.6077,5.5253,Time series break,Time series break,true
+HUN,Hungary,false,2005,3.8709,5.6654,,,false
+HUN,Hungary,false,2006,4.2399,6.2754,,,false
+HUN,Hungary,false,2007,4.2274,6.3088,,,false
+HUN,Hungary,false,2008,4.589,6.796,,,false
+HUN,Hungary,false,2009,5.0699,7.5288,,,false
+HUN,Hungary,false,2010,5.4366,8.0192,,,false
+HUN,Hungary,false,2011,5.8693,8.659,,,false
+HUN,Hungary,false,2012,6.0214,9.0261,,,false
+HUN,Hungary,false,2013,6.2316,9.4982,,,false
+HUN,Hungary,false,2014,6.2468,8.8958,,,false
+HUN,Hungary,false,2015,5.8886,8.5707,,,false
+HUN,Hungary,false,2016,5.8096,8.0505,,,false
+HUN,Hungary,false,2017,6.2896,8.9461,,,false
+HUN,Hungary,false,2018,8.1613,11.861,Definition differs,Definition differs,false
+HUN,Hungary,false,2019,8.4268,12.2114,Definition differs,Definition differs,false
+HUN,Hungary,false,2020,9.215,13.0519,Definition differs,Definition differs,false
+HUN,Hungary,false,2021,9.2581,13.0672,Definition differs,Definition differs,false
+HUN,Hungary,false,2022,9.6227,13.1809,Definition differs,Definition differs,false
+HUN,Hungary,false,2023,9.2335,12.4728,Definition differs,Definition differs,false
+HUN,Hungary,false,2024,9.2733,12.4192,Definition differs; Provisional value,Definition differs; Provisional value,false
+IRL,Ireland,false,1981,1.6044,3.759,Estimated value,Estimated value,false
+IRL,Ireland,false,1982,1.7356,3.7577,Estimated value,Estimated value,false
+IRL,Ireland,false,1983,1.9031,3.9051,Estimated value,Estimated value,false
+IRL,Ireland,false,1984,2.0971,4.1185,Estimated value,Estimated value,false
+IRL,Ireland,false,1985,2.2369,4.2476,Estimated value,Estimated value,false
+IRL,Ireland,false,1986,2.3535,4.3223,Estimated value,Estimated value,false
+IRL,Ireland,false,1987,2.6111,4.4539,Estimated value,Estimated value,false
+IRL,Ireland,false,1988,2.7995,4.5502,Estimated value,Estimated value,false
+IRL,Ireland,false,1989,3.202,4.9445,Estimated value,Estimated value,false
+IRL,Ireland,false,1990,3.4461,5.1085,Estimated value,Estimated value,false
+IRL,Ireland,false,1991,3.8632,5.989,Estimated value,Estimated value,false
+IRL,Ireland,false,1992,4.1223,6.3083,Estimated value,Estimated value,false
+IRL,Ireland,false,1993,3.5493,5.7307,Estimated value,Estimated value,false
+IRL,Ireland,false,1994,3.729,6.124,Estimated value,Estimated value,false
+IRL,Ireland,false,1995,3.8894,6.5192,Estimated value,Estimated value,false
+IRL,Ireland,false,1996,4.2582,6.6315,Estimated value,Estimated value,false
+IRL,Ireland,false,1997,4.583,7.0403,Estimated value,Estimated value,false
+IRL,Ireland,false,1998,4.8456,7.2896,Time series break; Estimated value,Time series break; Estimated value,true
+IRL,Ireland,false,1999,4.6396,7.0263,Estimated value,Estimated value,false
+IRL,Ireland,false,2000,4.8058,7.2019,Estimated value,Estimated value,false
+IRL,Ireland,false,2001,4.9118,7.3092,,,false
+IRL,Ireland,false,2002,5.0701,7.3446,,,false
+IRL,Ireland,false,2003,5.3265,7.6669,,,false
+IRL,Ireland,false,2004,5.6573,8.0739,,,false
+IRL,Ireland,false,2005,5.6882,8.1934,,,false
+IRL,Ireland,false,2006,5.7193,8.1964,,,false
+IRL,Ireland,false,2007,5.7219,8.184,Estimated value,Estimated value,false
+IRL,Ireland,false,2008,6.6018,9.1129,,,false
+IRL,Ireland,false,2009,7.0472,9.7868,Estimated value,Estimated value,false
+IRL,Ireland,false,2010,7.3718,10.2558,Estimated value,Estimated value,false
+IRL,Ireland,false,2011,8.0966,11.4489,Estimated value,Estimated value,false
+IRL,Ireland,false,2012,11.9109,15.5936,Estimated value,Estimated value,false
+IRL,Ireland,false,2013,12.2629,16.4854,Estimated value,Estimated value,false
+IRL,Ireland,false,2014,12.3704,16.882,Estimated value,Estimated value,false
+IRL,Ireland,false,2015,11.941,16.7254,Estimated value,Estimated value,false
+IRL,Ireland,false,2016,11.4085,16.1273,Estimated value,Estimated value,false
+IRL,Ireland,false,2017,11.1219,15.3796,Estimated value,Estimated value,false
+IRL,Ireland,false,2018,9.9561,13.7474,Time series break; Estimated value,Time series break; Estimated value,true
+IRL,Ireland,false,2019,10.4196,14.1005,Estimated value,Estimated value,false
+IRL,Ireland,false,2020,11.3239,15.1696,Estimated value,Estimated value,false
+IRL,Ireland,false,2021,10.7483,15.8432,Estimated value,Estimated value,false
+IRL,Ireland,false,2022,10.8212,15.5685,Estimated value,Estimated value,false
+IRL,Ireland,false,2023,11.0714,16.2856,,,false
+IRL,Ireland,false,2024,11.1484,16.418,Definition differs; Provisional value,Definition differs; Provisional value,false
+ISL,Iceland,false,1981,2.9792,6.4287,Estimated value,Estimated value,false
+ISL,Iceland,false,1983,3.4527,6.4786,Estimated value,Estimated value,false
+ISL,Iceland,false,1985,3.7138,6.6269,Estimated value,Estimated value,false
+ISL,Iceland,false,1987,3.5777,6.3874,Estimated value,Estimated value,false
+ISL,Iceland,false,1989,5.2243,9.1786,Estimated value,Estimated value,false
+ISL,Iceland,false,1990,5.1485,9.0457,Estimated value,Estimated value,false
+ISL,Iceland,false,1991,5.2346,9.1188,Provisional value,Provisional value,false
+ISL,Iceland,false,1992,5.3652,9.4242,Provisional value,Provisional value,false
+ISL,Iceland,false,1993,6.1844,10.3445,Provisional value,Provisional value,false
+ISL,Iceland,false,1994,6.4162,10.7234,Provisional value,Provisional value,false
+ISL,Iceland,false,1995,7.9315,12.4834,Provisional value,Provisional value,false
+ISL,Iceland,false,1997,9.6676,15.5025,Provisional value,Provisional value,false
+ISL,Iceland,false,1998,10.0447,16.1429,Estimated value; Provisional value,Estimated value; Provisional value,false
+ISL,Iceland,false,1999,10.9321,16.5655,Provisional value,Provisional value,false
+ISL,Iceland,false,2001,12.396,19.3367,Provisional value,Provisional value,false
+ISL,Iceland,false,2002,,18.8991,,Estimated value; Provisional value,
+ISL,Iceland,false,2003,12.8571,19.7183,Provisional value,Provisional value,false
+ISL,Iceland,false,2005,13.3348,19.9616,Provisional value,Provisional value,false
+ISL,Iceland,false,2006,14.0914,20.05,Provisional value,Provisional value,false
+ISL,Iceland,false,2007,12.3992,16.7456,Provisional value,Provisional value,false
+ISL,Iceland,false,2008,12.8705,17.3821,Provisional value,Provisional value,false
+ISL,Iceland,false,2009,15.2193,20.6379,Provisional value,Provisional value,false
+ISL,Iceland,false,2011,13.745,19.7444,Time series break; Provisional value,Time series break; Provisional value,true
+ISL,Iceland,false,2013,10.7885,15.9736,Time series break; Provisional value,Time series break; Provisional value,true
+ISL,Iceland,false,2021,13.0997,22.578,Provisional value,Provisional value,false
+ISL,Iceland,false,2023,10.8429,19.3587,Provisional value,Provisional value,false
+ISR,Israel,false,2011,,20.2268,,Definition differs,
+ISR,Israel,false,2012,,21.2419,,Definition differs; Estimated value,
+ITA,Italy,false,1981,2.4569,4.8533,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1982,2.6708,4.9889,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1983,2.9586,5.2929,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1984,2.9099,5.2998,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1985,2.9654,5.4828,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1986,3.1338,5.6516,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1987,3.2516,5.9071,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1988,3.4121,6.1859,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1989,3.4452,6.3627,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1990,3.4715,6.46,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1991,3.2923,6.2855,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1992,3.2804,6.2968,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1993,3.3715,6.4397,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1994,3.4872,6.6235,Definition differs; Estimated value,Definition differs; Estimated value,false
+ITA,Italy,false,1995,3.4857,6.543,Definition differs,Definition differs,false
+ITA,Italy,false,1996,3.506,6.5261,Definition differs,Definition differs,false
+ITA,Italy,false,1997,3.0026,,Time series break; Definition differs,,true
+ITA,Italy,false,1998,2.9562,6.6026,Definition differs,Time series break; Definition differs,false
+ITA,Italy,false,1999,2.9111,6.3727,Definition differs,Definition differs,false
+ITA,Italy,false,2000,2.8986,6.5796,Definition differs,Definition differs,false
+ITA,Italy,false,2001,2.8698,6.6216,Definition differs,Definition differs,false
+ITA,Italy,false,2002,3.0106,6.9314,Definition differs,Definition differs,false
+ITA,Italy,false,2003,2.9246,6.7291,Definition differs,Definition differs,false
+ITA,Italy,false,2004,2.9778,6.7827,Definition differs,Definition differs,false
+ITA,Italy,false,2005,3.3937,7.2099,Definition differs,Definition differs,false
+ITA,Italy,false,2006,3.5673,7.7456,Definition differs,Definition differs,false
+ITA,Italy,false,2007,3.7049,8.3011,Definition differs,Definition differs,false
+ITA,Italy,false,2008,3.8065,8.7889,Definition differs,Definition differs,false
+ITA,Italy,false,2009,4.117,9.1576,Definition differs,Definition differs,false
+ITA,Italy,false,2010,4.2052,9.1741,Definition differs,Definition differs,false
+ITA,Italy,false,2011,4.3056,9.2517,Definition differs,Definition differs,false
+ITA,Italy,false,2012,4.5011,9.7663,Definition differs,Definition differs,false
+ITA,Italy,false,2013,4.8113,10.2205,Definition differs,Definition differs,false
+ITA,Italy,false,2014,4.8946,10.3319,Definition differs,Definition differs,false
+ITA,Italy,false,2015,5.1794,10.6639,Definition differs,Definition differs,false
+ITA,Italy,false,2016,5.424,11.7659,Time series break; Definition differs,Time series break; Definition differs,true
+ITA,Italy,false,2017,5.6284,12.7353,Definition differs,Definition differs,false
+ITA,Italy,false,2018,6.0454,13.7185,Definition differs,Definition differs,false
+ITA,Italy,false,2019,6.3444,14.0382,Definition differs,Definition differs,false
+ITA,Italy,false,2020,6.3225,13.7851,Definition differs,Definition differs,false
+ITA,Italy,false,2021,6.3408,13.2872,Definition differs,Definition differs,false
+ITA,Italy,false,2022,6.5291,13.234,Definition differs,Definition differs,false
+ITA,Italy,false,2023,6.5214,13.3472,Definition differs,Definition differs,false
+ITA,Italy,false,2024,6.8061,13.2393,Definition differs; Provisional value,Definition differs; Provisional value,false
+JPN,Japan,false,1981,5.2348,9.5499,Estimated value,Estimated value,false
+JPN,Japan,false,1982,5.3593,9.7487,Estimated value,Estimated value,false
+JPN,Japan,false,1983,5.7141,10.2458,Estimated value,Estimated value,false
+JPN,Japan,false,1984,5.8585,10.4926,Estimated value,Estimated value,false
+JPN,Japan,false,1985,6.2075,10.9086,Estimated value,Estimated value,false
+JPN,Japan,false,1986,6.3742,11.0897,Estimated value,Estimated value,false
+JPN,Japan,false,1987,6.7137,11.4081,Estimated value,Estimated value,false
+JPN,Japan,false,1988,6.9415,11.6664,Estimated value,Estimated value,false
+JPN,Japan,false,1989,7.2008,11.9713,Estimated value,Estimated value,false
+JPN,Japan,false,1990,7.3975,12.2966,Estimated value,Estimated value,false
+JPN,Japan,false,1991,7.4509,12.1803,Estimated value,Estimated value,false
+JPN,Japan,false,1992,7.6724,12.4293,Estimated value,Estimated value,false
+JPN,Japan,false,1993,7.8691,12.4481,Estimated value,Estimated value,false
+JPN,Japan,false,1994,8.0769,12.3609,Estimated value,Estimated value,false
+JPN,Japan,false,1995,8.2124,12.2989,Estimated value,Estimated value,false
+JPN,Japan,false,1996,9.1759,13.2546,Time series break; Definition differs,Time series break; Definition differs,true
+JPN,Japan,false,1997,9.2296,13.1927,Definition differs,Definition differs,false
+JPN,Japan,false,1998,9.7456,13.8167,Definition differs,Definition differs,false
+JPN,Japan,false,1999,9.9697,13.9071,Definition differs,Definition differs,false
+JPN,Japan,false,2000,9.87,13.6694,Definition differs,Definition differs,false
+JPN,Japan,false,2001,9.9896,13.2963,Definition differs,Definition differs,false
+JPN,Japan,false,2002,9.6435,12.9055,Definition differs,Definition differs,false
+JPN,Japan,false,2003,10.0922,13.2958,Definition differs,Definition differs,false
+JPN,Japan,false,2004,10.0561,13.4249,Definition differs,Definition differs,false
+JPN,Japan,false,2005,10.3864,13.686,Definition differs,Definition differs,false
+JPN,Japan,false,2006,10.3788,13.7959,Definition differs,Definition differs,false
+JPN,Japan,false,2007,10.2884,13.7146,Definition differs,Definition differs,false
+JPN,Japan,false,2008,9.8881,13.2921,Time series break; Definition differs,Time series break; Definition differs,true
+JPN,Japan,false,2009,9.9858,13.3811,Definition differs,Definition differs,false
+JPN,Japan,false,2010,10.0066,13.3912,Definition differs,Definition differs,false
+JPN,Japan,false,2011,10.0476,13.3094,Definition differs,Definition differs,false
+JPN,Japan,false,2012,9.9596,13.1151,Definition differs,Definition differs,false
+JPN,Japan,false,2013,10.1361,13.2826,Time series break; Definition differs,Time series break; Definition differs,true
+JPN,Japan,false,2014,10.438,13.6835,Definition differs,Definition differs,false
+JPN,Japan,false,2015,10.1052,13.3552,Definition differs,Definition differs,false
+JPN,Japan,false,2016,10.0633,13.1897,Definition differs,Definition differs,false
+JPN,Japan,false,2017,10.1193,13.3282,Definition differs,Definition differs,false
+JPN,Japan,false,2018,9.9717,13.1886,Time series break; Definition differs,Time series break; Definition differs,true
+JPN,Japan,false,2019,9.9369,13.1657,Definition differs,Definition differs,false
+JPN,Japan,false,2020,10.106,13.3541,Definition differs,Definition differs,false
+JPN,Japan,false,2021,10.3289,13.8113,Definition differs,Definition differs,false
+JPN,Japan,false,2022,10.3284,13.7614,Definition differs,Definition differs,false
+JPN,Japan,false,2023,10.1999,13.5282,Definition differs,Definition differs,false
+JPN,Japan,false,2024,10.2102,13.5938,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,1995,4.9162,7.4508,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,1996,4.7636,6.5012,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,1997,4.834,6.4302,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,1998,4.638,6.4487,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,1999,4.9339,6.7883,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2000,5.1183,6.5214,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2001,6.3078,7.6671,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2002,6.3835,7.7488,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2003,6.8065,8.3798,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2004,6.8874,8.5555,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2005,7.8758,9.4321,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2006,8.6247,10.2466,Definition differs; Estimated value,Definition differs; Estimated value,false
+KOR,Korea,false,2007,9.4193,11.4345,Time series break; Estimated value,Time series break; Estimated value,true
+KOR,Korea,false,2008,9.9322,12.3845,Estimated value,Estimated value,false
+KOR,Korea,false,2009,10.304,13.0474,Estimated value,Estimated value,false
+KOR,Korea,false,2010,10.9899,13.9488,Estimated value,Estimated value,false
+KOR,Korea,false,2011,11.7791,14.734,Estimated value,Estimated value,false
+KOR,Korea,false,2012,12.6464,15.8683,Estimated value,Estimated value,false
+KOR,Korea,false,2013,12.7213,15.8677,,,false
+KOR,Korea,false,2014,13.3398,16.6376,,,false
+KOR,Korea,false,2015,13.6164,16.8856,,,false
+KOR,Korea,false,2016,13.6806,16.9414,,,false
+KOR,Korea,false,2017,14.335,17.6316,,,false
+KOR,Korea,false,2018,15.2251,18.6851,,,false
+KOR,Korea,false,2019,15.8793,19.3814,,,false
+KOR,Korea,false,2020,16.6047,20.2731,,,false
+KOR,Korea,false,2021,17.26,21.1603,,,false
+KOR,Korea,false,2022,17.4008,21.4388,,,false
+KOR,Korea,false,2023,17.2526,21.4956,,,false
+KOR,Korea,false,2024,17.6146,21.8636,,,false
+LTU,Lithuania,false,1996,5.031,8.3955,,,false
+LTU,Lithuania,false,1997,5.1786,8.0806,,,false
+LTU,Lithuania,false,1998,5.645,8.5966,,,false
+LTU,Lithuania,false,1999,5.8426,8.7539,,,false
+LTU,Lithuania,false,2000,5.5541,8.4208,,,false
+LTU,Lithuania,false,2001,5.989,8.8622,,,false
+LTU,Lithuania,false,2002,4.5292,6.8238,,,false
+LTU,Lithuania,false,2003,4.6231,6.752,,,false
+LTU,Lithuania,false,2004,5.2051,7.4702,,,false
+LTU,Lithuania,false,2005,5.3632,7.7263,,,false
+LTU,Lithuania,false,2006,5.6196,8.0146,,,false
+LTU,Lithuania,false,2007,5.8435,8.6131,,,false
+LTU,Lithuania,false,2008,5.8972,8.7441,,,false
+LTU,Lithuania,false,2009,6.4285,9.0377,,,false
+LTU,Lithuania,false,2010,6.8764,9.8479,,,false
+LTU,Lithuania,false,2011,6.6727,8.886,,,false
+LTU,Lithuania,false,2012,6.2621,8.1299,,,false
+LTU,Lithuania,false,2013,6.5887,8.5313,,,false
+LTU,Lithuania,false,2014,6.8478,8.8973,,,false
+LTU,Lithuania,false,2015,6.0772,7.8929,,,false
+LTU,Lithuania,false,2016,6.2034,7.9487,,,false
+LTU,Lithuania,false,2017,6.4064,8.4849,,,false
+LTU,Lithuania,false,2018,6.4617,8.6437,,,false
+LTU,Lithuania,false,2019,6.9257,9.348,,,false
+LTU,Lithuania,false,2020,7.4388,10.4066,,,false
+LTU,Lithuania,false,2021,7.9593,10.7582,,,false
+LTU,Lithuania,false,2022,7.9692,10.7695,,,false
+LTU,Lithuania,false,2023,7.1287,9.7718,,,false
+LTU,Lithuania,false,2024,7.1292,9.8534,Provisional value,Provisional value,false
+LUX,Luxembourg,false,2000,6.2345,13.8772,,,false
+LUX,Luxembourg,false,2003,6.6624,13.7077,,,false
+LUX,Luxembourg,false,2004,6.7851,14.4254,,,false
+LUX,Luxembourg,false,2005,7.2417,14.2809,,,false
+LUX,Luxembourg,false,2006,6.434,13.7077,,,false
+LUX,Luxembourg,false,2007,6.6034,13.8167,Estimated value,Estimated value,false
+LUX,Luxembourg,false,2008,6.5536,13.3259,,,false
+LUX,Luxembourg,false,2009,6.798,13.3641,,,false
+LUX,Luxembourg,false,2010,7.2784,13.8486,,,false
+LUX,Luxembourg,false,2011,7.6589,14.0434,,,false
+LUX,Luxembourg,false,2012,6.1015,12.5265,Time series break,Time series break,true
+LUX,Luxembourg,false,2013,6.4935,12.903,,,false
+LUX,Luxembourg,false,2014,6.6537,13.2684,,,false
+LUX,Luxembourg,false,2015,6.4402,12.98,,,false
+LUX,Luxembourg,false,2016,6.627,12.9412,,,false
+LUX,Luxembourg,false,2017,6.7934,12.8302,,,false
+LUX,Luxembourg,false,2018,6.4003,12.2221,,,false
+LUX,Luxembourg,false,2019,6.7469,12.4966,,,false
+LUX,Luxembourg,false,2020,6.5348,12.2617,,,false
+LUX,Luxembourg,false,2021,6.464,11.7265,,,false
+LUX,Luxembourg,false,2022,6.8415,12.347,,,false
+LUX,Luxembourg,false,2023,6.9322,11.9026,,,false
+LUX,Luxembourg,false,2024,6.7487,11.5453,Definition differs; Provisional value,Definition differs; Provisional value,false
+LVA,Latvia,false,1995,3.3026,5.6311,Definition differs,Definition differs,false
+LVA,Latvia,false,1996,3.0352,5.0719,Definition differs,Definition differs,false
+LVA,Latvia,false,1997,2.6715,4.5415,Definition differs,Definition differs,false
+LVA,Latvia,false,1998,2.6269,4.5583,Definition differs,Definition differs,false
+LVA,Latvia,false,1999,2.7471,4.4993,Definition differs,Definition differs,false
+LVA,Latvia,false,2000,4.1291,5.8992,Definition differs,Definition differs,false
+LVA,Latvia,false,2001,3.7254,5.8336,Definition differs,Definition differs,false
+LVA,Latvia,false,2002,3.6238,5.559,Definition differs,Definition differs,false
+LVA,Latvia,false,2003,3.3424,5.0695,Definition differs,Definition differs,false
+LVA,Latvia,false,2004,3.4603,5.3122,Definition differs,Definition differs,false
+LVA,Latvia,false,2005,3.3865,5.6575,Definition differs,Definition differs,false
+LVA,Latvia,false,2006,3.8392,6.2608,Definition differs,Definition differs,false
+LVA,Latvia,false,2007,3.9067,5.8201,Definition differs,Definition differs,false
+LVA,Latvia,false,2008,4.1419,6.192,Definition differs,Definition differs,false
+LVA,Latvia,false,2009,4.0068,6.0693,Definition differs,Definition differs,false
+LVA,Latvia,false,2010,4.6188,6.5951,Definition differs,Definition differs,false
+LVA,Latvia,false,2011,4.6098,6.3441,Definition differs,Definition differs,false
+LVA,Latvia,false,2012,4.4944,6.4389,Definition differs,Definition differs,false
+LVA,Latvia,false,2013,4.0793,6.0723,Definition differs,Definition differs,false
+LVA,Latvia,false,2014,4.2755,6.5466,Definition differs,Definition differs,false
+LVA,Latvia,false,2015,4.0641,6.2655,Definition differs,Definition differs,false
+LVA,Latvia,false,2016,3.5564,5.7768,Definition differs,Definition differs,false
+LVA,Latvia,false,2017,3.9301,6.0701,Definition differs,Definition differs,false
+LVA,Latvia,false,2018,3.8235,6.4234,Definition differs,Definition differs,false
+LVA,Latvia,false,2019,3.9384,6.4238,Definition differs,Definition differs,false
+LVA,Latvia,false,2020,4.4458,7.161,Definition differs,Definition differs,false
+LVA,Latvia,false,2021,5.0171,7.8137,Definition differs,Definition differs,false
+LVA,Latvia,false,2022,4.7027,7.6197,Definition differs,Definition differs,false
+LVA,Latvia,false,2023,4.4786,7.0301,Definition differs,Definition differs,false
+LVA,Latvia,false,2024,4.7779,7.6918,Definition differs,Definition differs,false
+MEX,Mexico,false,1993,0.4143,0.7911,Estimated value,Estimated value,false
+MEX,Mexico,false,1994,0.4939,0.883,Estimated value,Estimated value,false
+MEX,Mexico,false,1995,0.5873,1.0062,Estimated value,Estimated value,false
+MEX,Mexico,false,1996,0.5708,0.9731,Estimated value,Estimated value,false
+MEX,Mexico,false,1997,0.5879,1.0124,Estimated value,Estimated value,false
+MEX,Mexico,false,1998,0.5449,1.0243,Estimated value,Estimated value,false
+MEX,Mexico,false,1999,0.5588,1.0149,Estimated value,Estimated value,false
+MEX,Mexico,false,2001,0.5865,1.0896,Estimated value,Estimated value,false
+MEX,Mexico,false,2002,0.7927,,Estimated value,,false
+MEX,Mexico,false,2003,0.8568,1.5288,Estimated value,Estimated value,false
+MEX,Mexico,false,2004,0.9838,1.8603,Time series break; Estimated value,Time series break; Estimated value,true
+MEX,Mexico,false,2005,1.0751,2.0484,,,false
+MEX,Mexico,false,2006,0.8592,1.5867,,,false
+MEX,Mexico,false,2007,0.8799,1.6306,,,false
+MEX,Mexico,false,2008,0.8594,,,,false
+MEX,Mexico,false,2009,0.969,,,,false
+MEX,Mexico,false,2010,0.8543,1.5755,,,false
+MEX,Mexico,false,2011,0.8648,1.5947,,,false
+MEX,Mexico,false,2012,0.6118,1.2375,,,false
+MEX,Mexico,false,2013,0.6217,1.2274,,,false
+MEX,Mexico,false,2014,0.6478,1.0807,,,false
+MEX,Mexico,false,2015,0.692,1.1509,,,false
+MEX,Mexico,false,2016,0.7686,1.3012,,,false
+MEX,Mexico,false,2017,0.7616,1.2732,Estimated value,Estimated value,false
+NLD,Netherlands,false,1981,3.2215,9.03,Estimated value,Estimated value,false
+NLD,Netherlands,false,1982,,9.6671,,Time series break; Estimated value,
+NLD,Netherlands,false,1983,3.7418,9.7841,Time series break; Estimated value,Estimated value,true
+NLD,Netherlands,false,1984,,9.8343,,Estimated value,
+NLD,Netherlands,false,1985,3.992,10.1495,Estimated value,Estimated value,false
+NLD,Netherlands,false,1986,,10.1467,,Estimated value,
+NLD,Netherlands,false,1987,4.0318,10.0431,Estimated value,Estimated value,false
+NLD,Netherlands,false,1988,,10.0046,,Estimated value,
+NLD,Netherlands,false,1989,4.0351,10.0515,Estimated value,Estimated value,false
+NLD,Netherlands,false,1990,,10.8517,,Time series break; Estimated value,
+NLD,Netherlands,false,1991,,10.4184,,Estimated value,
+NLD,Netherlands,false,1992,,10.2682,,Estimated value,
+NLD,Netherlands,false,1993,4.5519,10.5222,Estimated value,Estimated value,false
+NLD,Netherlands,false,1994,4.7998,11.0827,Time series break; Estimated value,Time series break; Estimated value,true
+NLD,Netherlands,false,1995,4.7576,10.9372,,,false
+NLD,Netherlands,false,1996,4.7801,10.8719,Time series break,Time series break,true
+NLD,Netherlands,false,1997,4.9671,10.9606,,,false
+NLD,Netherlands,false,1998,4.9848,10.9037,,,false
+NLD,Netherlands,false,1999,5.1826,11.1169,,,false
+NLD,Netherlands,false,2000,5.1368,11.1168,,,false
+NLD,Netherlands,false,2001,5.4434,11.0904,,,false
+NLD,Netherlands,false,2002,5.2009,10.8521,Time series break,,true
+NLD,Netherlands,false,2003,5.2223,10.7471,Time series break,Time series break,true
+NLD,Netherlands,false,2004,5.8365,11.5401,,,false
+NLD,Netherlands,false,2005,5.7338,11.2148,,,false
+NLD,Netherlands,false,2006,6.2331,11.4736,,,false
+NLD,Netherlands,false,2007,5.8171,10.6857,,,false
+NLD,Netherlands,false,2008,5.6875,10.4756,,,false
+NLD,Netherlands,false,2009,5.312,9.9405,,,false
+NLD,Netherlands,false,2010,6.1172,11.4528,,,false
+NLD,Netherlands,false,2011,6.9305,13.2696,Time series break,Time series break,true
+NLD,Netherlands,false,2012,8.2967,13.8456,Time series break,Time series break,true
+NLD,Netherlands,false,2013,9.4962,15.5471,Time series break,Time series break,true
+NLD,Netherlands,false,2014,9.6152,15.6414,,,false
+NLD,Netherlands,false,2015,9.5132,15.8822,,,false
+NLD,Netherlands,false,2016,9.8341,16.2175,,,false
+NLD,Netherlands,false,2017,9.985,16.4984,,,false
+NLD,Netherlands,false,2018,10.1992,16.7584,,,false
+NLD,Netherlands,false,2019,10.2071,16.7578,,,false
+NLD,Netherlands,false,2020,10.7179,17.474,,,false
+NLD,Netherlands,false,2021,10.9493,17.9223,,,false
+NLD,Netherlands,false,2022,11.2414,18.3533,Time series break,Time series break,true
+NLD,Netherlands,false,2023,11.6337,18.9891,Provisional value,Provisional value,false
+NLD,Netherlands,false,2024,11.7531,19.303,Provisional value,Provisional value,false
+NOR,Norway,false,1981,3.8236,7.5691,Definition differs,Unrevised breakdown not adding to the revised total,false
+NOR,Norway,false,1982,3.9521,7.7564,Definition differs; Estimated value,Estimated value,false
+NOR,Norway,false,1983,4.2303,8.1558,Definition differs,,false
+NOR,Norway,false,1984,4.5464,8.7329,Definition differs; Estimated value,Estimated value,false
+NOR,Norway,false,1985,4.7791,9.2604,Definition differs,,false
+NOR,Norway,false,1987,5.3625,9.3022,Definition differs,Estimated value,false
+NOR,Norway,false,1989,5.8838,9.7856,Definition differs,Estimated value,false
+NOR,Norway,false,1991,6.6338,9.9813,Definition differs,Time series break,false
+NOR,Norway,false,1993,7.2368,10.8289,Definition differs,,false
+NOR,Norway,false,1995,7.5431,11.3343,Time series break; Definition differs,Time series break,true
+NOR,Norway,false,1997,7.8748,11.2008,Definition differs,,false
+NOR,Norway,false,1999,7.9509,11.0387,Definition differs,,false
+NOR,Norway,false,2001,8.4959,11.5257,,,false
+NOR,Norway,false,2002,,11.582,,,
+NOR,Norway,false,2003,8.992,12.474,,,false
+NOR,Norway,false,2004,9.015,12.7192,,,false
+NOR,Norway,false,2005,9.142,12.9219,,,false
+NOR,Norway,false,2006,9.4239,13.0346,,,false
+NOR,Norway,false,2007,9.7794,13.5082,,,false
+NOR,Norway,false,2008,9.9525,13.8074,,,false
+NOR,Norway,false,2009,10.2669,14.1036,,,false
+NOR,Norway,false,2010,10.3648,14.154,,,false
+NOR,Norway,false,2011,10.5168,14.2719,,,false
+NOR,Norway,false,2012,10.5379,14.2721,,,false
+NOR,Norway,false,2013,10.5958,14.4222,,,false
+NOR,Norway,false,2014,10.8285,14.9248,,,false
+NOR,Norway,false,2015,11.3033,15.6491,,,false
+NOR,Norway,false,2016,11.7457,16.1642,,,false
+NOR,Norway,false,2017,12.2387,16.8246,,,false
+NOR,Norway,false,2018,12.2984,16.6909,,,false
+NOR,Norway,false,2019,12.658,17.1802,,,false
+NOR,Norway,false,2020,13.0072,17.5312,,,false
+NOR,Norway,false,2021,13.7999,18.3877,,,false
+NOR,Norway,false,2022,13.6965,18.2899,,,false
+NOR,Norway,false,2023,13.778,18.3949,,,false
+NOR,Norway,false,2024,13.0432,17.5717,Provisional value,Provisional value,false
+NZL,New Zealand,false,1989,3.175,6.0285,Estimated value,Estimated value,false
+NZL,New Zealand,false,1990,3.2967,5.9345,Estimated value,Estimated value,false
+NZL,New Zealand,false,1991,3.1668,5.8017,Estimated value,Estimated value,false
+NZL,New Zealand,false,1992,4.0465,6.8083,Time series break; Estimated value,Time series break; Estimated value,true
+NZL,New Zealand,false,1993,4.2075,7.1208,Estimated value,Estimated value,false
+NZL,New Zealand,false,1995,3.7909,6.5503,Estimated value,Estimated value,false
+NZL,New Zealand,false,1997,4.9559,7.7408,Estimated value,Estimated value,false
+NZL,New Zealand,false,1999,4.9709,7.4183,Estimated value,Estimated value,false
+NZL,New Zealand,false,2001,5.7189,8.2853,Time series break; Estimated value,Time series break; Estimated value,true
+NZL,New Zealand,false,2003,6.467,9.5228,Estimated value,Estimated value,false
+NZL,New Zealand,false,2005,6.3079,9.1947,Estimated value,Estimated value,false
+NZL,New Zealand,false,2007,6.8642,9.8731,Estimated value,Estimated value,false
+NZL,New Zealand,false,2009,7.5382,10.8624,,,false
+NZL,New Zealand,false,2011,7.4706,10.8163,,,false
+NZL,New Zealand,false,2013,8.0061,11.137,,,false
+NZL,New Zealand,false,2015,10.5588,13.9376,,,false
+NZL,New Zealand,false,2017,9.2951,13.1681,,,false
+NZL,New Zealand,false,2019,10.4826,14.6007,,,false
+NZL,New Zealand,false,2021,9.4264,13.7771,,The sum of the breakdown does not add to the total,false
+NZL,New Zealand,false,2023,9.619,14.085,,,false
+OECD,OECD,true,1991,5.24,,Estimated value,,false
+OECD,OECD,true,1992,5.3738,,Estimated value,,false
+OECD,OECD,true,1993,5.4628,,Estimated value,,false
+OECD,OECD,true,1994,5.4978,,Estimated value,,false
+OECD,OECD,true,1995,5.624,,Time series break; Estimated value,,true
+OECD,OECD,true,1996,5.8477,,Estimated value,,false
+OECD,OECD,true,1997,5.9035,,Estimated value,,false
+OECD,OECD,true,1998,6.0663,,Estimated value,,false
+OECD,OECD,true,1999,6.2142,,Estimated value,,false
+OECD,OECD,true,2000,6.2644,,Estimated value,,false
+OECD,OECD,true,2001,6.4599,,Estimated value,,false
+OECD,OECD,true,2002,6.5607,,Estimated value,,false
+OECD,OECD,true,2003,6.8582,,Estimated value,,false
+OECD,OECD,true,2004,6.8684,,Estimated value,,false
+OECD,OECD,true,2005,7.0137,,Estimated value,,false
+OECD,OECD,true,2006,7.0933,,Estimated value,,false
+OECD,OECD,true,2007,7.1041,,Estimated value,,false
+OECD,OECD,true,2008,7.258,,Estimated value,,false
+OECD,OECD,true,2009,7.552,,Estimated value,,false
+OECD,OECD,true,2010,7.584,,Estimated value,,false
+OECD,OECD,true,2011,7.7462,12.1268,Estimated value,Estimated value,false
+OECD,OECD,true,2012,7.8151,12.1521,Estimated value,Estimated value,false
+OECD,OECD,true,2013,7.9734,12.3191,Estimated value,Estimated value,false
+OECD,OECD,true,2014,8.1283,12.5065,Estimated value,Estimated value,false
+OECD,OECD,true,2015,8.1861,12.5946,Estimated value,Estimated value,false
+OECD,OECD,true,2016,8.1846,12.5602,Estimated value,Estimated value,false
+OECD,OECD,true,2017,8.4178,12.9383,Estimated value,Estimated value,false
+OECD,OECD,true,2018,8.7352,13.4332,Estimated value,Estimated value,false
+OECD,OECD,true,2019,8.9141,13.69,Estimated value,Estimated value,false
+OECD,OECD,true,2020,9.5235,,Estimated value,,false
+OECD,OECD,true,2021,9.7709,,Estimated value,,false
+OECD,OECD,true,2022,9.8209,14.9334,Estimated value,Estimated value,false
+OECD,OECD,true,2023,9.8037,,Estimated value,,false
+POL,Poland,false,1994,3.2744,5.4707,Estimated value,Estimated value,false
+POL,Poland,false,1995,3.4101,5.653,,,false
+POL,Poland,false,1996,3.5067,5.5699,,,false
+POL,Poland,false,1997,3.6635,5.5217,,,false
+POL,Poland,false,1998,3.6588,5.504,,,false
+POL,Poland,false,1999,3.7993,5.5453,Estimated value,Estimated value,false
+POL,Poland,false,2000,3.8008,5.4369,,,false
+POL,Poland,false,2001,3.9555,5.4409,,,false
+POL,Poland,false,2002,4.1206,5.5363,,,false
+POL,Poland,false,2003,4.3065,5.6622,Time series break,Time series break,true
+POL,Poland,false,2004,4.429,5.6948,,,false
+POL,Poland,false,2005,4.4222,5.4607,,,false
+POL,Poland,false,2006,4.1074,5.0713,,,false
+POL,Poland,false,2007,4.0509,4.969,,,false
+POL,Poland,false,2008,3.9287,4.7417,,,false
+POL,Poland,false,2009,3.87,4.6601,,,false
+POL,Poland,false,2010,4.1971,5.3247,Time series break,Time series break,true
+POL,Poland,false,2011,4.149,5.5132,,,false
+POL,Poland,false,2012,4.3296,5.8621,,,false
+POL,Poland,false,2013,4.6219,6.0626,,,false
+POL,Poland,false,2014,4.9979,6.634,,,false
+POL,Poland,false,2015,5.1718,6.8409,,,false
+POL,Poland,false,2016,5.4762,6.9435,,,false
+POL,Poland,false,2017,7.0233,8.8325,Definition differs,Definition differs,false
+POL,Poland,false,2018,7.1806,9.8754,Definition differs,Definition differs,false
+POL,Poland,false,2019,7.1898,9.7629,Time series break; Definition differs,Time series break; Definition differs,true
+POL,Poland,false,2020,7.4026,10.3014,Definition differs,Definition differs,false
+POL,Poland,false,2021,7.8331,10.7009,Definition differs,Definition differs,false
+POL,Poland,false,2022,8.0655,11.1407,Definition differs,Definition differs,false
+POL,Poland,false,2023,8.1376,11.4021,Definition differs,Definition differs,false
+POL,Poland,false,2024,8.2448,11.3788,Definition differs; Provisional value,Definition differs; Provisional value,false
+PRT,Portugal,false,1982,0.8781,1.8952,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1983,0.9434,1.9974,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1984,1.014,2.1096,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1985,1.1586,2.2583,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1986,1.3393,2.4737,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1987,1.4051,2.4541,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1988,1.4686,2.4362,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1989,1.5703,2.5181,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1990,1.6708,2.6009,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1991,1.8056,2.6779,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1992,2.0187,2.8725,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1993,2.1511,3.0631,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1994,2.2764,3.2426,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1995,2.5611,3.4147,Definition differs,Definition differs,false
+PRT,Portugal,false,1996,2.7407,3.6375,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1997,2.8869,3.8164,Definition differs,Definition differs,false
+PRT,Portugal,false,1998,3.0252,3.9975,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,1999,3.1929,4.2175,Definition differs,Definition differs,false
+PRT,Portugal,false,2000,3.3199,4.3412,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,2001,3.4551,4.4774,Definition differs,Definition differs,false
+PRT,Portugal,false,2002,3.6862,4.7087,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,2003,3.9689,5.0056,Definition differs,Definition differs,false
+PRT,Portugal,false,2004,4.0844,5.0608,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,2005,4.1909,5.1038,Definition differs,Definition differs,false
+PRT,Portugal,false,2006,4.8709,6.0327,Definition differs; Estimated value,Definition differs; Estimated value,false
+PRT,Portugal,false,2007,5.5666,6.9807,Definition differs,Definition differs,false
+PRT,Portugal,false,2008,7.9541,9.4253,Time series break; Definition differs,Time series break; Definition differs,true
+PRT,Portugal,false,2009,8.0608,9.5306,Definition differs,Definition differs,false
+PRT,Portugal,false,2010,8.524,9.7747,Definition differs,Definition differs,false
+PRT,Portugal,false,2011,9.2184,10.3783,Definition differs,Definition differs,false
+PRT,Portugal,false,2012,9.2683,10.371,Definition differs,Definition differs,false
+PRT,Portugal,false,2013,8.4925,10.4909,Time series break; Definition differs,Definition differs,true
+PRT,Portugal,false,2014,8.4387,10.3677,Definition differs,Definition differs,false
+PRT,Portugal,false,2015,8.4237,10.4556,Definition differs,Definition differs,false
+PRT,Portugal,false,2016,8.8515,10.7903,Definition differs,Definition differs,false
+PRT,Portugal,false,2017,9.3112,11.3951,Definition differs,Definition differs,false
+PRT,Portugal,false,2018,9.6415,11.7666,Definition differs,Definition differs,false
+PRT,Portugal,false,2019,10.067,12.3323,Definition differs,Definition differs,false
+PRT,Portugal,false,2020,10.8866,13.5215,Definition differs,Definition differs,false
+PRT,Portugal,false,2021,11.3802,14.0864,Definition differs,Definition differs,false
+PRT,Portugal,false,2022,11.5144,14.4227,Definition differs,Definition differs,false
+PRT,Portugal,false,2023,11.9145,15.1904,Definition differs,Definition differs,false
+PRT,Portugal,false,2024,12.3751,15.9255,Definition differs; Provisional value,Definition differs; Provisional value,false
+ROU,Romania,false,1995,2.8216,5.2454,,,false
+ROU,Romania,false,1996,2.6969,5.3315,,,false
+ROU,Romania,false,1997,2.5089,4.8038,,,false
+ROU,Romania,false,1998,2.5017,4.7728,,,false
+ROU,Romania,false,1999,2.1623,4.0616,,,false
+ROU,Romania,false,2000,1.9009,3.1464,,,false
+ROU,Romania,false,2001,1.8509,3.0626,,,false
+ROU,Romania,false,2002,2.1189,3.4259,,,false
+ROU,Romania,false,2003,2.1908,3.4565,,,false
+ROU,Romania,false,2004,2.3137,3.6311,Time series break,Time series break,true
+ROU,Romania,false,2005,2.5066,3.6272,,,false
+ROU,Romania,false,2006,2.0336,3.1369,,,false
+ROU,Romania,false,2007,1.9822,3.0539,,,false
+ROU,Romania,false,2008,2.0722,3.2471,,,false
+ROU,Romania,false,2009,2.1372,3.1493,,,false
+ROU,Romania,false,2010,2.267,2.9995,,,false
+ROU,Romania,false,2011,1.8867,3.4906,Time series break,Time series break,true
+ROU,Romania,false,2012,2.0839,3.6014,,,false
+ROU,Romania,false,2013,2.1677,3.7934,,,false
+ROU,Romania,false,2014,2.0973,3.6355,,,false
+ROU,Romania,false,2015,2.0478,3.6749,,,false
+ROU,Romania,false,2016,2.1408,3.8237,,,false
+ROU,Romania,false,2017,2.0297,3.7755,,,false
+ROU,Romania,false,2018,1.9925,3.6965,,,false
+ROU,Romania,false,2019,2.0059,3.6609,,,false
+ROU,Romania,false,2020,2.1637,3.9174,,,false
+ROU,Romania,false,2021,2.2392,4.0149,,,false
+ROU,Romania,false,2022,2.2257,4.1406,,,false
+ROU,Romania,false,2023,2.4423,4.1531,Definition differs,Definition differs,false
+ROU,Romania,false,2024,2.48,4.2688,Definition differs; Provisional value,Definition differs; Provisional value,false
+RUS,Russia,false,1998,8.4239,16.5486,,,false
+RUS,Russia,false,1999,7.8963,15.7168,,,false
+RUS,Russia,false,2000,7.7827,15.4796,,,false
+RUS,Russia,false,2001,7.7665,15.4798,,,false
+RUS,Russia,false,2002,7.38,14.8045,,,false
+RUS,Russia,false,2003,7.3483,14.6728,,,false
+RUS,Russia,false,2004,7.0953,14.1352,,,false
+RUS,Russia,false,2005,6.7981,13.4581,,,false
+RUS,Russia,false,2006,6.7134,13.2503,,,false
+RUS,Russia,false,2007,6.6282,12.8909,,,false
+RUS,Russia,false,2008,6.3548,12.2498,,,false
+RUS,Russia,false,2009,6.3717,12.1876,,,false
+RUS,Russia,false,2010,6.3213,12.0112,,,false
+RUS,Russia,false,2011,6.3167,11.8433,,,false
+RUS,Russia,false,2012,6.1957,11.5787,,,false
+RUS,Russia,false,2013,6.1714,11.5804,,,false
+RUS,Russia,false,2014,6.2185,11.5907,,,false
+RUS,Russia,false,2015,6.2107,11.5267,,,false
+RUS,Russia,false,2016,5.9244,11.0828,,,false
+RUS,Russia,false,2017,5.6781,10.7605,,,false
+RUS,Russia,false,2018,5.5944,10.4569,,,false
+RUS,Russia,false,2019,5.5699,10.4791,,,false
+RUS,Russia,false,2020,5.6258,10.605,,,false
+SGP,Singapore,false,1993,3.5804,4.8459,,,false
+SGP,Singapore,false,1994,3.8027,4.8058,,,false
+SGP,Singapore,false,1995,4.2203,5.2087,,,false
+SGP,Singapore,false,1996,4.7295,5.7766,,,false
+SGP,Singapore,false,1997,4.7427,5.8962,,,false
+SGP,Singapore,false,1998,5.6341,6.8243,,,false
+SGP,Singapore,false,1999,6.108,7.3198,,,false
+SGP,Singapore,false,2000,7.661,8.9195,,,false
+SGP,Singapore,false,2001,7.7111,8.9604,,,false
+SGP,Singapore,false,2002,8.4355,10.1814,,,false
+SGP,Singapore,false,2003,9.378,11.0128,,,false
+SGP,Singapore,false,2004,9.6797,11.5526,,,false
+SGP,Singapore,false,2005,10.2545,12.3221,,,false
+SGP,Singapore,false,2006,10.0298,12.0714,,,false
+SGP,Singapore,false,2007,9.9976,11.7906,,,false
+SGP,Singapore,false,2008,9.4302,11.2336,,,false
+SGP,Singapore,false,2009,10.2106,12.0051,,,false
+SGP,Singapore,false,2010,10.313,11.9173,,,false
+SGP,Singapore,false,2011,10.4436,12.0778,,,false
+SGP,Singapore,false,2012,10.1662,11.749,,,false
+SGP,Singapore,false,2013,10.3079,11.8979,,,false
+SGP,Singapore,false,2014,10.1135,11.7346,,,false
+SGP,Singapore,false,2015,10.7172,12.4327,,,false
+SGP,Singapore,false,2016,10.6742,12.2773,,,false
+SGP,Singapore,false,2017,10.6007,12.1315,,,false
+SGP,Singapore,false,2018,10.5776,12.064,,,false
+SGP,Singapore,false,2019,11.2265,12.8728,,,false
+SGP,Singapore,false,2020,11.8314,13.7154,,,false
+SGP,Singapore,false,2021,12.1851,14.2478,,,false
+SGP,Singapore,false,2022,12.4563,14.3765,,,false
+SGP,Singapore,false,2023,12.6292,14.6058,,,false
+SVK,Slovak Republic,false,1994,4.8733,8.2051,Definition differs; Estimated value,Definition differs; Estimated value,false
+SVK,Slovak Republic,false,1995,4.6085,7.6794,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,1996,4.6534,7.723,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,1997,4.694,7.687,Time series break; Definition differs,Time series break; Definition differs,true
+SVK,Slovak Republic,false,1998,4.7879,7.7687,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,1999,4.4567,7.1901,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2000,4.9164,7.5171,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2001,4.7066,7.0817,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2002,4.504,6.6871,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2003,4.6722,6.4811,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2004,5.2136,6.9702,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2005,5.2279,6.8953,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2006,5.5224,7.0475,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2007,5.675,7.0837,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2008,5.6015,6.9315,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2009,6.0323,7.2403,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2010,6.9973,8.382,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2011,6.9401,8.2017,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2012,6.9117,8.2042,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2013,6.7179,7.8304,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2014,6.6312,7.914,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2015,6.3542,7.7593,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2016,6.0958,7.6552,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2017,6.4182,8.0137,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2018,6.7512,8.3755,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2019,6.943,8.6684,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2020,7.2013,9.3388,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2021,7.3451,9.3738,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2022,7.5778,9.6172,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2023,7.9474,9.9955,Definition differs,Definition differs,false
+SVK,Slovak Republic,false,2024,8.3244,10.5506,Definition differs,Definition differs,false
+SVN,Slovenia,false,1995,5.3087,10.7095,,Estimated value,false
+SVN,Slovenia,false,1996,4.9648,9.8234,,,false
+SVN,Slovenia,false,1997,4.5309,8.9953,,,false
+SVN,Slovenia,false,1998,4.8323,9.3488,,,false
+SVN,Slovenia,false,1999,4.9167,9.4347,,,false
+SVN,Slovenia,false,2000,4.7401,9.3666,,,false
+SVN,Slovenia,false,2001,4.8893,9.3568,,,false
+SVN,Slovenia,false,2002,4.9773,9.2372,,,false
+SVN,Slovenia,false,2003,4.0624,7.3231,,,false
+SVN,Slovenia,false,2004,4.3131,7.633,,,false
+SVN,Slovenia,false,2005,5.6493,9.6726,,,false
+SVN,Slovenia,false,2006,6.2014,10.3689,,,false
+SVN,Slovenia,false,2007,6.403,10.6228,,,false
+SVN,Slovenia,false,2008,7.0284,11.588,Time series break,Time series break,true
+SVN,Slovenia,false,2009,7.5662,12.6103,,,false
+SVN,Slovenia,false,2010,7.9955,13.4314,,,false
+SVN,Slovenia,false,2011,9.2627,16.1195,Time series break,Time series break,true
+SVN,Slovenia,false,2012,9.4654,15.9539,,,false
+SVN,Slovenia,false,2013,9.3823,16.4102,,,false
+SVN,Slovenia,false,2014,9.2006,15.9525,,,false
+SVN,Slovenia,false,2015,8.3678,15.0674,,,false
+SVN,Slovenia,false,2016,8.4433,14.9783,,,false
+SVN,Slovenia,false,2017,9.3997,14.869,Definition differs,Definition differs,false
+SVN,Slovenia,false,2018,9.8617,15.3649,Definition differs,Definition differs,false
+SVN,Slovenia,false,2019,10.0472,16.2407,Definition differs,Definition differs,false
+SVN,Slovenia,false,2020,10.4435,16.2103,Definition differs,Definition differs,false
+SVN,Slovenia,false,2021,10.5214,16.5377,Definition differs,Definition differs,false
+SVN,Slovenia,false,2022,10.4813,16.0319,Definition differs,Definition differs,false
+SVN,Slovenia,false,2023,10.8249,16.2734,Definition differs,Definition differs,false
+SVN,Slovenia,false,2024,10.7838,16.4266,Definition differs,Definition differs,false
+SWE,Sweden,false,1981,4.1262,9.7331,Estimated value,Estimated value,false
+SWE,Sweden,false,1983,4.4207,10.5462,Estimated value,Estimated value,false
+SWE,Sweden,false,1985,4.9544,11.2211,Definition differs; Estimated value,Estimated value,false
+SWE,Sweden,false,1987,5.0692,11.5574,Definition differs; Estimated value,Estimated value,false
+SWE,Sweden,false,1989,5.5489,11.9565,Definition differs; Estimated value,Estimated value,false
+SWE,Sweden,false,1991,5.7847,11.6947,Definition differs; Estimated value,Estimated value,false
+SWE,Sweden,false,1993,7.0478,13.6434,Time series break; Estimated value,Time series break; Estimated value,true
+SWE,Sweden,false,1995,8.0594,14.9949,,,false
+SWE,Sweden,false,1997,9.0166,16.0136,,,false
+SWE,Sweden,false,1999,9.4042,15.7064,,,false
+SWE,Sweden,false,2001,10.3652,16.2681,,,false
+SWE,Sweden,false,2003,10.8979,16.5049,,,false
+SWE,Sweden,false,2004,11.0807,16.4582,,,false
+SWE,Sweden,false,2005,12.498,17.6234,Time series break; Estimated value,Time series break; Estimated value,true
+SWE,Sweden,false,2006,12.4265,17.5519,,,false
+SWE,Sweden,false,2007,9.9852,16.4163,Time series break; Definition differs; Estimated value,Time series break; Estimated value,true
+SWE,Sweden,false,2008,10.8911,17.2516,Estimated value,Estimated value,false
+SWE,Sweden,false,2009,10.4724,17.1256,Estimated value,Estimated value,false
+SWE,Sweden,false,2010,10.8435,17.0239,Estimated value,Estimated value,false
+SWE,Sweden,false,2011,10.4686,16.8619,Estimated value,Estimated value,false
+SWE,Sweden,false,2012,10.5115,17.3354,Estimated value,Estimated value,false
+SWE,Sweden,false,2013,13.5545,17.094,Time series break; Estimated value,Estimated value,true
+SWE,Sweden,false,2014,13.8686,17.371,Estimated value,Estimated value,false
+SWE,Sweden,false,2015,13.6814,17.1292,Estimated value,Estimated value,false
+SWE,Sweden,false,2016,14.1448,18.2288,Estimated value,Estimated value,false
+SWE,Sweden,false,2017,14.3399,17.4372,,The sum of the breakdown does not add to the total,false
+SWE,Sweden,false,2018,14.4909,17.7418,Estimated value,Estimated value,false
+SWE,Sweden,false,2019,15.0648,17.6595,,Estimated value; The sum of the breakdown does not add to the total,false
+SWE,Sweden,false,2020,15.5431,18.5268,,Estimated value,false
+SWE,Sweden,false,2021,16.2315,18.8569,,Estimated value,false
+SWE,Sweden,false,2022,16.7227,19.573,,,false
+SWE,Sweden,false,2023,17.1529,19.4528,,,false
+SWE,Sweden,false,2024,17.1717,19.4333,,,false
+TUR,Türkiye,false,1990,0.6881,0.8552,Estimated value,Estimated value,false
+TUR,Türkiye,false,1991,0.7047,0.8829,Estimated value,Estimated value,false
+TUR,Türkiye,false,1992,0.7352,0.918,Estimated value,Estimated value,false
+TUR,Türkiye,false,1993,0.8357,0.9881,Estimated value,Estimated value,false
+TUR,Türkiye,false,1994,0.823,0.9618,Estimated value,Estimated value,false
+TUR,Türkiye,false,1995,0.8775,1.0238,Estimated value,Estimated value,false
+TUR,Türkiye,false,1996,0.9729,1.1826,Estimated value,Estimated value,false
+TUR,Türkiye,false,1997,1.0167,1.2599,Estimated value,Estimated value,false
+TUR,Türkiye,false,1998,0.9914,1.1992,Estimated value,Estimated value,false
+TUR,Türkiye,false,1999,1.0386,1.256,Estimated value,Estimated value,false
+TUR,Türkiye,false,2000,1.22,1.4272,Estimated value,Estimated value,false
+TUR,Türkiye,false,2001,1.2003,1.4645,Estimated value,Estimated value,false
+TUR,Türkiye,false,2002,1.2725,1.5361,Estimated value,Estimated value,false
+TUR,Türkiye,false,2003,1.7458,2.0477,Estimated value,Estimated value,false
+TUR,Türkiye,false,2004,1.7768,2.0959,,Estimated value,false
+TUR,Türkiye,false,2005,2.0083,2.5271,,Estimated value,false
+TUR,Türkiye,false,2006,2.1509,2.7448,,Estimated value,false
+TUR,Türkiye,false,2007,2.4661,3.1468,,Estimated value,false
+TUR,Türkiye,false,2008,2.5658,3.267,,Estimated value,false
+TUR,Türkiye,false,2009,2.7951,3.5579,,Estimated value,false
+TUR,Türkiye,false,2010,2.9313,3.7263,,Estimated value,false
+TUR,Türkiye,false,2011,3.0859,3.9715,,Estimated value,false
+TUR,Türkiye,false,2012,3.4064,4.3605,,Estimated value,false
+TUR,Türkiye,false,2013,3.5949,4.5592,,Estimated value,false
+TUR,Türkiye,false,2014,3.4977,4.5037,,Estimated value,false
+TUR,Türkiye,false,2015,3.4097,4.44,,,false
+TUR,Türkiye,false,2016,3.805,5.1725,,,false
+TUR,Türkiye,false,2017,4.1873,5.6794,,,false
+TUR,Türkiye,false,2018,4.6677,6.2781,,,false
+TUR,Türkiye,false,2019,5.3118,7.0149,,,false
+TUR,Türkiye,false,2020,6.3656,8.2411,Estimated value,Estimated value,false
+TUR,Türkiye,false,2021,6.6951,8.5508,Estimated value,Estimated value,false
+TUR,Türkiye,false,2022,7.0803,8.957,Estimated value,Estimated value,false
+TUR,Türkiye,false,2023,7.3532,9.2771,Estimated value,Estimated value,false
+TUR,Türkiye,false,2024,7.756,9.6146,Estimated value,Estimated value,false
+TWN,Chinese Taipei,false,1996,5.0483,,Definition differs; Underestimated or based on underestimated data,,false
+TWN,Chinese Taipei,false,1997,5.1845,,Definition differs; Underestimated or based on underestimated data,,false
+TWN,Chinese Taipei,false,1998,5.7586,11.3135,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+TWN,Chinese Taipei,false,1999,5.8438,11.1385,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+TWN,Chinese Taipei,false,2000,5.8435,11.0176,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+TWN,Chinese Taipei,false,2001,6.3579,11.4842,Definition differs; Underestimated or based on underestimated data,Definition differs; Underestimated or based on underestimated data,false
+TWN,Chinese Taipei,false,2002,7.3923,12.6944,Time series break,Time series break,true
+TWN,Chinese Taipei,false,2003,7.8461,13.3321,Time series break,Time series break,true
+TWN,Chinese Taipei,false,2004,8.2985,14.1635,,,false
+TWN,Chinese Taipei,false,2005,8.9377,15.0024,,,false
+TWN,Chinese Taipei,false,2006,9.4131,15.9543,,,false
+TWN,Chinese Taipei,false,2007,10.0821,17.1145,,,false
+TWN,Chinese Taipei,false,2008,10.58,17.7583,,,false
+TWN,Chinese Taipei,false,2009,11.6081,19.1824,,,false
+TWN,Chinese Taipei,false,2010,12.2115,20.1292,,,false
+TWN,Chinese Taipei,false,2011,12.5598,20.7174,,,false
+TWN,Chinese Taipei,false,2012,12.8696,21.0618,,,false
+TWN,Chinese Taipei,false,2013,12.8368,21.315,,,false
+TWN,Chinese Taipei,false,2014,12.8584,21.6603,,,false
+TWN,Chinese Taipei,false,2015,12.9341,21.9148,,,false
+TWN,Chinese Taipei,false,2016,13.0595,22.2326,,,false
+TWN,Chinese Taipei,false,2017,13.2035,22.4832,,,false
+TWN,Chinese Taipei,false,2018,13.4685,22.941,,,false
+TWN,Chinese Taipei,false,2019,13.84,23.6156,,,false
+TWN,Chinese Taipei,false,2020,14.2155,24.3087,,,false
+TWN,Chinese Taipei,false,2021,14.6559,25.1079,,,false
+TWN,Chinese Taipei,false,2022,15.0305,25.8257,,,false
+TWN,Chinese Taipei,false,2023,15.2526,26.2586,,,false
+TWN,Chinese Taipei,false,2024,15.5995,26.8353,,,false
+USA,United States,false,1991,6.804,,Estimated value,,false
+USA,United States,false,1992,6.9819,,Estimated value,,false
+USA,United States,false,1993,6.9858,,Estimated value,,false
+USA,United States,false,1994,6.7433,,Estimated value,,false
+USA,United States,false,1995,6.8029,,Estimated value,,false
+USA,United States,false,1996,7.0584,,Estimated value,,false
+USA,United States,false,1997,7.1727,,Estimated value,,false
+USA,United States,false,1998,7.4586,,Estimated value,,false
+USA,United States,false,1999,7.5655,,Estimated value,,false
+USA,United States,false,2000,7.4659,,Estimated value,,false
+USA,United States,false,2001,7.6231,,Estimated value,,false
+USA,United States,false,2002,7.8118,,Estimated value,,false
+USA,United States,false,2003,8.2463,,Estimated value,,false
+USA,United States,false,2004,7.9423,,Estimated value,,false
+USA,United States,false,2005,7.7342,,Estimated value,,false
+USA,United States,false,2006,7.7498,,Estimated value,,false
+USA,United States,false,2007,7.6486,,Estimated value,,false
+USA,United States,false,2008,8.0256,,Estimated value,,false
+USA,United States,false,2009,8.703,,Estimated value,,false
+USA,United States,false,2010,8.3445,,Estimated value,,false
+USA,United States,false,2011,8.6242,,Estimated value,,false
+USA,United States,false,2012,8.4866,,Estimated value,,false
+USA,United States,false,2013,8.6426,,Estimated value,,false
+USA,United States,false,2014,8.8049,,Estimated value,,false
+USA,United States,false,2015,8.8113,,Estimated value,,false
+USA,United States,false,2016,8.6106,,Estimated value,,false
+USA,United States,false,2017,8.8485,,Estimated value,,false
+USA,United States,false,2018,9.4523,,Estimated value,,false
+USA,United States,false,2019,9.5324,,Estimated value,,false
+USA,United States,false,2020,10.693,,Estimated value,,false
+USA,United States,false,2021,11.1176,,Estimated value,,false
+USA,United States,false,2022,10.8295,16.9974,Time series break; Definition differs; Estimated value; Unrevised breakdown not adding to the revised total,Definition differs; Estimated value; Unrevised breakdown not adding to the revised total,true
+USA,United States,false,2023,10.6246,,Estimated value,,false
+ZAF,South Africa,false,1997,0.9255,1.9403,Underestimated or based on underestimated data,Underestimated or based on underestimated data,false
+ZAF,South Africa,false,2001,1.1744,1.7552,,,false
+ZAF,South Africa,false,2003,1.1963,2.1324,,,false
+ZAF,South Africa,false,2004,1.4874,2.4657,,,false
+ZAF,South Africa,false,2005,1.3551,2.2553,,,false
+ZAF,South Africa,false,2006,1.3841,2.309,,,false
+ZAF,South Africa,false,2007,1.4346,2.328,,,false
+ZAF,South Africa,false,2008,1.3291,2.1119,,,false
+ZAF,South Africa,false,2009,1.3945,2.1764,,,false
+ZAF,South Africa,false,2010,1.3577,2.1386,,,false
+ZAF,South Africa,false,2011,1.4296,2.2017,,,false
+ZAF,South Africa,false,2012,1.4823,2.4298,,,false
+ZAF,South Africa,false,2013,1.5705,2.5533,,,false
+ZAF,South Africa,false,2014,1.5563,2.5396,,,false
+ZAF,South Africa,false,2015,1.6619,2.6082,,,false
+ZAF,South Africa,false,2016,1.7526,2.6953,,,false
+ZAF,South Africa,false,2017,1.8255,2.7374,,,false
+ZAF,South Africa,false,2018,1.7758,2.6702,,,false
+ZAF,South Africa,false,2019,1.7345,2.56,,,false
+ZAF,South Africa,false,2020,1.8349,2.846,,,false
+ZAF,South Africa,false,2021,1.8898,3.0193,,,false
+ZAF,South Africa,false,2022,1.7705,2.8577,,,false
+ZAF,South Africa,false,2023,1.6702,2.682,,,false

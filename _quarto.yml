@@ -43,6 +43,9 @@ format:
     code-copy: true
     anchor-sections: true
     link-external-newwindow: true
+    # Fills ```{.python include="..." snippet="..."}``` blocks from the real scripts.
+    filters:
+      - _filters/include-code.lua
 
 execute:
   freeze: auto

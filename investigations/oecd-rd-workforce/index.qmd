@@ -1,0 +1,533 @@
+---
+title: "How much of the workforce does research?"
+subtitle: "Researchers and R&D staff as a share of employment, country by country, from OECD data"
+description: "In Finland, Korea and Sweden, about 1 in 57 workers is a full-time-equivalent researcher. In the United States it is about 1 in 94, and in China about 1 in 230."
+date: 2026-09-29
+date-modified: last-modified
+categories: [science, research and development, labour, OECD]
+image: rd-workforce.svg
+page-layout: article
+toc: true
+---
+
+::: {.investigation-meta}
+**Reproduction level:** Fully reproducible\
+**Evidence status:** Committed snapshot of the OECD Main Science and Technology Indicators\
+**Data retrieved:** September 29, 2026\
+**Last checked:** September 29, 2026
+:::
+
+Every chart and every processing step on this page has its code attached. Click any
+**Code:** box or **Show code** link to see the exact code that produced what you are
+looking at. The Python boxes are read straight from the scripts in this investigation's
+folder when the page is built, so they cannot differ from the code that actually ran.
+
+## What we asked
+
+What share of each country's workforce is employed in research and development, and how has that share changed?
+
+## The short answer
+
+```{ojs}
+//| code-summary: "Show how the data is loaded"
+// Load the four analysis-ready tables once; every chart below reuses them.
+// {typed: true} converts numbers and true/false text into real JS values.
+// Two OECD labels are too long for chart axes, so they are shortened for
+// display only; the CSV files keep the OECD's full official labels.
+shortName = name => name
+  .replace("China (People’s Republic of)", "China")
+  .replace("European Union (27 countries from 01/02/2020)", "European Union (27)")
+shorten = rows => rows.map(d => d.country ? {...d, country: shortName(d.country)} : d)
+
+latest = shorten(await FileAttachment("data/processed/latest_by_country.csv").csv({typed: true}))
+series = shorten(await FileAttachment("data/processed/researchers_timeseries.csv").csv({typed: true}))
+sectors = shorten(await FileAttachment("data/processed/sector_shares_latest.csv").csv({typed: true}))
+checks = FileAttachment("data/processed/ratio_check.csv").csv({typed: true})
+
+// Small helpers for the numbers quoted in the text.
+byCode = new Map(latest.map(d => [d.country_code, d]))   // "KOR" -> Korea's row
+fmt = v => v.toFixed(1)
+oneIn = v => Math.round(1000 / v)   // 17.8 per 1,000 -> "1 in 56"
+```
+
+```{ojs}
+//| code-summary: "Show how the numbers in this paragraph are computed"
+// The figures below are read from the data at page-build time, not typed in.
+rs = code => byCode.get(code).researchers_per_1000
+md`Researchers are a small group everywhere, but the differences between countries are large.
+Finland has **${fmt(rs("FIN"))}** full-time-equivalent researchers per 1,000 employed people (about 1 in ${oneIn(rs("FIN"))}).
+Korea has **${fmt(rs("KOR"))}** and Sweden **${fmt(rs("SWE"))}**.
+The United States has **${fmt(rs("USA"))}** (1 in ${oneIn(rs("USA"))}), close to the OECD figure of **${fmt(rs("OECD"))}**.
+China has **${fmt(rs("CHN"))}** (1 in ${oneIn(rs("CHN"))}); its total number of researchers is very large, but so is its workforce.
+
+Counting technicians and support staff as well as researchers roughly adds half again. On that measure, Chinese Taipei leads with **${fmt(byCode.get("TWN").rd_personnel_per_1000)}** per 1,000 employed.`
+```
+
+The share has risen in almost every country. The OECD figure went from about 6 per 1,000 in 2000 to nearly 10 in 2023. Korea's more than tripled over the same period.
+
+## Where the numbers come from
+
+All data comes from the OECD's **Main Science and Technology Indicators** (MSTI). This is the standard international source for R&D statistics. National statistics offices collect the figures by surveys that follow the OECD's [Frascati Manual](https://www.oecd.org/en/publications/frascati-manual-2015_9789264239012-en.html), which sets the international definitions for R&D. The OECD then compiles and publishes them.
+
+Two measures are used throughout:
+
+| Measure | OECD code | What it counts |
+|---|---|---|
+| **Researchers** | `T_RS` | Professionals who create new knowledge, products, processes or methods, and the managers of such projects |
+| **R&D personnel** | `T_TT` | Researchers **plus** technicians and support staff working on R&D |
+
+Both are published in **full-time equivalents (FTE)** and divided by **total employment** (all employed people, in every industry).
+
+::: {.callout-warning}
+## Assumption / Data Processing Decision: "the workforce in science" means R&D staff
+
+The question asked about the workforce "in science and R&D." MSTI measures people **doing R&D** as the Frascati Manual defines it. That definition includes engineers and social scientists doing research. It leaves out science graduates in jobs that are not R&D, such as a chemist doing routine quality control, a data analyst or a school science teacher. Broader measures of science and technology jobs exist (for example, occupation-based counts in labour force surveys), and they give larger numbers. This article uses the narrower R&D definition throughout.
+:::
+
+::: {.callout-warning}
+## Assumption / Data Processing Decision: full-time equivalents, not people
+
+One FTE is one person-year of R&D. A professor who spends 40% of their time on research counts as 0.4 researchers. FTE is the measure the OECD recommends for comparing countries, and it is the only one MSTI turns into a share of employment. It is smaller than a count of individuals: in countries that report both, the number of people who do some research is usually well above the FTE figure.
+:::
+
+::: {.callout-note collapse="true"}
+## Code: the exact request sent to the OECD
+
+`fetch_data.py` makes two requests: one for the data and one for the labels that go with the codes. It asks for **more** than the article needs, including every unit and transformation. The filtering is then done in `analyze.py` below, where you can see it.
+
+```{.python include="scripts/fetch_data.py" snippet="request"}
+```
+
+Before saving anything, it checks that each response has the expected shape:
+
+```{.python include="scripts/fetch_data.py" snippet="sanity-checks"}
+```
+:::
+
+## Step 1: Reading and cleaning the raw file
+
+The raw OECD file has **27,330 rows**. It covers six measures, several units each (full-time equivalents, headcount, percentages and per-1,000 ratios), and year-over-year growth rates. The first step keeps only the levels (not growth rates), drops blank cells, and uses the OECD's own metadata file to turn codes such as `KOR` and `E` into readable labels.
+
+::: {.callout-note collapse="true"}
+## Code: loading labels from the OECD's metadata
+
+```{.python include="scripts/analyze.py" snippet="labels"}
+```
+:::
+
+::: {.callout-note collapse="true"}
+## Code: loading and filtering observations
+
+```{.python include="scripts/analyze.py" snippet="load"}
+```
+:::
+
+The OECD tags many values with status flags, such as *estimated*, *provisional*, *definition differs* or *break in series*. These flags are kept rather than dropped. They appear in every chart tooltip and in the downloadable tables.
+
+::: {.callout-note collapse="true"}
+## Code: translating status flags into words
+
+```{.python include="scripts/analyze.py" snippet="flags"}
+```
+:::
+
+## Step 2: Checking the OECD's arithmetic
+
+The OECD publishes "researchers per 1,000 employed" as a ready-made ratio. We did not take it on trust. The same snapshot has both ingredients (FTE researchers and total employment), so the script rebuilds every published ratio from them and stops if any differs by more than one part in a million.
+
+```{ojs}
+//| code-summary: "Show how this result is computed"
+// The largest gap between the OECD's ratio and ours, across every row checked.
+maxDiff = d3.max(checks, d => d.relative_difference)
+md`**Result:** all **${checks.length.toLocaleString()}** published ratios (researchers and R&D personnel, every country and year) match our recomputation. The largest relative difference is **${maxDiff.toExponential(1)}**, which is floating-point rounding. So the published ratio is exactly FTE ÷ total employment × 1,000, with no hidden adjustment.`
+```
+
+::: {.callout-note collapse="true"}
+## Code: the verification
+
+```{.python include="scripts/analyze.py" snippet="verify"}
+```
+:::
+
+::: {.callout-note collapse="true"}
+## Table: every check, row by row
+
+```{ojs}
+//| code-summary: "Show the table code"
+Inputs.table(checks, {
+  columns: ["country_code", "measure", "year", "fte", "total_employment", "published_per_1000", "recomputed_per_1000", "relative_difference"],
+  header: {
+    country_code: "Country", measure: "Measure", year: "Year", fte: "FTE",
+    total_employment: "Total employment", published_per_1000: "OECD per 1,000",
+    recomputed_per_1000: "Our per 1,000", relative_difference: "Relative difference"
+  },
+  format: {year: d => String(d)},
+  rows: 15
+})
+```
+:::
+
+## Finding 1: The ranking
+
+Three analytical choices shape the ranking. They are all named constants at the top of `analyze.py`:
+
+::: {.callout-note collapse="true"}
+## Code: the analytical decisions, as constants
+
+```{.python include="scripts/analyze.py" snippet="decisions"}
+```
+:::
+
+::: {.callout-warning}
+## Assumption / Data Processing Decision: comparing different latest years
+
+Countries report on different schedules, so each country is shown at **its own most recent year**, and that year appears in the tooltip. A country is left out of the ranking if its latest figure is more than five years older than the newest year in the data. It is listed below the chart instead. A few countries have R&D personnel figures but no researcher figures, or the other way round, so the two views do not contain exactly the same countries.
+:::
+
+```{ojs}
+//| code-summary: "Show the ranking chart code"
+
+// Toggle between the two measures. The value is the column-name prefix.
+viewof measure = Inputs.radio(
+  new Map([["Researchers", "researchers"], ["All R&D personnel", "rd_personnel"]]),
+  {value: "researchers", label: "Count"}
+)
+
+// Keep countries (and the OECD / EU aggregates) whose figure is current,
+// then attach a generic `value` and `year` for whichever measure is selected.
+ranked = latest
+  .filter(d => d[`${measure}_is_current`] && d[`${measure}_per_1000`] != null)
+  .map(d => ({
+    ...d,
+    value: d[`${measure}_per_1000`],
+    year: d[`${measure}_year`],
+    flags: d[`${measure}_flags`]
+  }))
+
+Plot.plot({
+  width,
+  height: ranked.length * 17 + 50,
+  marginLeft: 175,
+  marginRight: 40,
+  x: {grid: true, label: "Full-time equivalents per 1,000 employed →"},
+  // Sort bars from highest to lowest.
+  y: {domain: d3.sort(ranked, d => -d.value).map(d => d.country), label: null},
+  marks: [
+    Plot.ruleX([0]),
+    Plot.barX(ranked, {
+      x: "value",
+      y: "country",
+      // Aggregates are grey so they read as benchmarks, not competitors.
+      fill: d => d.is_aggregate ? "#8c8c8c" : "#136f63",
+      insetTop: 1.5, insetBottom: 1.5
+    }),
+    Plot.text(ranked, {
+      x: "value", y: "country",
+      text: d => d.value.toFixed(1),
+      dx: 4, textAnchor: "start", fill: "currentColor", fontSize: 10
+    }),
+    Plot.tip(ranked, Plot.pointerY({
+      x: "value", y: "country",
+      title: d => [
+        `${d.country} (${d.year})`,
+        `${d.value.toFixed(2)} per 1,000 employed (${(d.value / 10).toFixed(2)}% of workforce)`,
+        d.flags ? `OECD flags: ${d.flags}` : "No OECD flags"
+      ].join("\n")
+    }))
+  ]
+})
+```
+
+```{ojs}
+//| code-summary: "Show how this list is computed"
+stale = latest.filter(d => !d[`${measure}_is_current`] && d[`${measure}_per_1000`] != null)
+md`**Left out as out of date:** ${stale.map(d => `${d.country} (latest: ${d[`${measure}_year`]}, ${d[`${measure}_per_1000`].toFixed(1)} per 1,000)`).join("; ") || "none"}.`
+```
+
+Grey bars are the OECD and European Union aggregates. The top of the table is mostly Nordic countries and East Asian economies with strong manufacturing. Southern and Eastern European countries, Latin American members and South Africa sit at the bottom.
+
+::: {.callout-note collapse="true"}
+## Code: selecting each country's latest value
+
+```{.python include="scripts/analyze.py" snippet="latest"}
+```
+:::
+
+::: {.callout-important}
+## Issue / Limitation: many recent figures are provisional or defined differently
+
+Look at the tooltips. Many 2024 figures carry the OECD flag *provisional value*, and a large number are flagged *definition differs*. That flag means a country's survey departs from the Frascati guidelines in some documented way, for example in which sectors or fields it covers. The U.S. figure is flagged *estimated*. Differences of a few tenths between neighbouring countries are therefore not meaningful.
+:::
+
+## Finding 2: The long rise
+
+Choose up to four countries to highlight. All other countries are drawn as faint grey lines, and the OECD figure is the dashed line. Hollow circles mark years the OECD flags as a **break in series**. At a break, the method or coverage changed, so part of the jump may be an artefact of measurement.
+
+```{ojs}
+//| code-summary: "Show the trend chart code"
+
+// Only rows with a researchers figure; the researchers series is the headline.
+trend = series.filter(d => d.researchers_per_1000 != null)
+countryNames = d3.sort(d3.union(trend.filter(d => !d.is_aggregate).map(d => d.country)))
+
+viewof picked = Inputs.select(countryNames, {
+  multiple: 6,
+  value: ["Korea", "United States", "Germany", "China"],
+  label: "Highlight (up to 4)"
+})
+```
+
+```{ojs}
+//| code-summary: "Show the trend chart code"
+
+// Four fixed, colour-blind-checked hues. Colour follows the selection order.
+highlightColors = ["#2a78d6", "#eb6834", "#1baf7a", "#b07d00"]
+chosen = picked.slice(0, 4)
+color = d3.scaleOrdinal(chosen, highlightColors)
+highlighted = trend.filter(d => chosen.includes(d.country))
+oecd = trend.filter(d => d.country_code === "OECD")
+// The last point of each highlighted line (plus the OECD line), for direct labels.
+endpoints = [
+  ...d3.rollups(highlighted, v => d3.greatest(v, d => d.year), d => d.country).map(([, d]) => d),
+  oecd[oecd.length - 1]
+]
+// Nudge labels apart so close lines don't print on top of each other:
+// walk up from the lowest label and keep at least `gap` units between them.
+// This moves only the label text, never the line or its value.
+labels = {
+  const gap = d3.max(trend, d => d.researchers_per_1000) / 22
+  const sorted = d3.sort(endpoints, d => d.researchers_per_1000).map(d => ({...d, labelY: d.researchers_per_1000}))
+  for (let i = 1; i < sorted.length; i++) {
+    sorted[i].labelY = Math.max(sorted[i].labelY, sorted[i - 1].labelY + gap)
+  }
+  return sorted
+}
+
+Plot.plot({
+  width,
+  height: 460,
+  marginRight: 120,
+  x: {label: null, tickFormat: d => String(d)},
+  y: {grid: true, label: "↑ Researchers (FTE) per 1,000 employed"},
+  marks: [
+    Plot.ruleY([0]),
+    // Context: every other country, faint.
+    Plot.line(trend.filter(d => !d.is_aggregate), {
+      x: "year", y: "researchers_per_1000", z: "country",
+      stroke: "#8c8c8c", strokeOpacity: 0.22, strokeWidth: 1
+    }),
+    // Benchmark: the OECD aggregate, dashed.
+    Plot.line(oecd, {x: "year", y: "researchers_per_1000", stroke: "currentColor", strokeDasharray: "5,4", strokeWidth: 1.5}),
+    // Highlighted countries.
+    Plot.line(highlighted, {x: "year", y: "researchers_per_1000", z: "country", stroke: d => color(d.country), strokeWidth: 2.5}),
+    Plot.dot(highlighted.filter(d => d.researchers_break), {
+      x: "year", y: "researchers_per_1000", r: 4.5,
+      stroke: d => color(d.country), fill: "none", strokeWidth: 2
+    }),
+    Plot.text(labels, {
+      x: "year", y: "labelY", text: "country",
+      dx: 6, textAnchor: "start", fill: "currentColor",
+      fontWeight: d => d.country_code === "OECD" ? 400 : 600
+    }),
+    Plot.tip(highlighted, Plot.pointer({
+      x: "year", y: "researchers_per_1000", stroke: d => color(d.country),
+      title: d => [
+        `${d.country}, ${d.year}`,
+        `${d.researchers_per_1000.toFixed(2)} researchers per 1,000 employed`,
+        d.researchers_flags ? `OECD flags: ${d.researchers_flags}` : "No OECD flags"
+      ].join("\n")
+    }))
+  ]
+})
+```
+
+Three patterns stand out:
+
+- **Korea and Chinese Taipei grew fastest.** Between 2000 and 2024, Korea more than tripled its researcher share and Chinese Taipei nearly tripled its share. Korea went from about 5 to 17.6 per 1,000, moving from the middle of the OECD to the top.
+- **Most of Europe and the United States rose slowly and steadily.** The U.S. figure went from 7.5 per 1,000 in 2000 to 10.6 in 2023, and Germany's from 6.5 to 11.2 in 2024.
+- **Japan has been flat for more than twenty years**, at about 10 per 1,000. It was one of the leaders in 2000 and is now close to the OECD average.
+
+::: {.callout-note collapse="true"}
+## Code: building the country-year table
+
+```{.python include="scripts/analyze.py" snippet="timeseries"}
+```
+:::
+
+::: {.callout-important}
+## Issue / Limitation: gaps and breaks
+
+Some countries reported only every other year in earlier decades. The chart draws straight lines across those gaps; it does **not** fill in values. The data table below shows exactly which years exist. Breaks in series are common. The United States has one in 2022, for example. Movement across a break should be read as "changed method plus possibly real change," not as a clean trend.
+:::
+
+## Finding 3: Who employs the researchers?
+
+A high researcher share can come from very different setups. The chart splits each country's researchers into **business**, **government** and **higher education** (universities). It uses each country's latest year in which all three are reported. Countries are sorted by business share.
+
+```{ojs}
+//| code-summary: "Show the sector chart code"
+
+sectorOrder = ["Business", "Government", "Higher education", "Other / unallocated"]
+sectorColors = ["#2a78d6", "#eb6834", "#1baf7a", "#c9c6bf"]
+// Sort countries by the business share, highest first.
+businessShare = new Map(sectors.filter(d => d.sector === "Business").map(d => [d.country, d.share_pct]))
+
+Plot.plot({
+  width,
+  height: businessShare.size * 17 + 70,
+  marginLeft: 175,
+  x: {label: "Share of the country's researchers (%) →", domain: [0, 100]},
+  y: {domain: d3.sort(businessShare.keys(), c => -businessShare.get(c)), label: null},
+  color: {domain: sectorOrder, range: sectorColors, legend: true},
+  marks: [
+    Plot.barX(sectors, {
+      x: "share_pct", y: "country", fill: "sector",
+      order: sectorOrder,
+      insetTop: 1.5, insetBottom: 1.5, insetLeft: 1,  // 1px gap between segments
+      tip: true,
+      title: d => [
+        `${d.country} (${d.year})`,
+        `${d.sector}: ${d.share_pct.toFixed(1)}% of researchers`,
+        d.flags ? `Note: ${d.flags}` : ""
+      ].filter(Boolean).join("\n")
+    })
+  ]
+})
+```
+
+```{ojs}
+//| code-summary: "Show how the numbers in this paragraph are computed"
+businessPct = code => sectors.find(d => d.country_code === code && d.sector === "Business").share_pct.toFixed(0)
+md`The countries with the most researchers tend to be the ones where **companies** employ most of them. In Korea, **${businessPct("KOR")}%** of researchers work in business, and in the United States **${businessPct("USA")}%**. Where the researcher share is low, universities usually employ most researchers. That is the pattern in Latvia, Lithuania, Croatia, Costa Rica and, most sharply, South Africa. In other words, a large research workforce mostly reflects how much R&D industry does.`
+```
+
+::: {.callout-note collapse="true"}
+## Code: calculating sector shares
+
+```{.python include="scripts/analyze.py" snippet="sectors"}
+```
+:::
+
+::: {.callout-important}
+## Issue / Limitation: the "other" slice
+
+The Frascati Manual defines a fourth sector, private non-profit institutions, but MSTI does not publish its share of researchers. Some countries also report breakdowns that do not add up to their total. We show the leftover explicitly as *Other / unallocated* (100 minus the three published shares) instead of stretching the three sectors to fill 100%. It is largest for Chile and the United States. There it probably reflects the non-profit sector and revisions to the total that have not been carried into the breakdown, but MSTI does not say which.
+:::
+
+## The full data
+
+These are the exact tables behind the charts, and they can be searched and sorted. Links to download them are in the next section.
+
+::: {.callout-note collapse="true"}
+## Table: latest value for every country
+
+```{ojs}
+//| code-summary: "Show the table code"
+Inputs.table(latest, {
+  columns: ["country", "researchers_year", "researchers_per_1000", "researchers_pct_of_workforce", "researchers_flags", "rd_personnel_year", "rd_personnel_per_1000", "rd_personnel_flags", "researchers_is_current"],
+  header: {
+    country: "Country", researchers_year: "Year", researchers_per_1000: "Researchers per 1,000",
+    researchers_pct_of_workforce: "% of workforce", researchers_flags: "Flags",
+    rd_personnel_year: "Year", rd_personnel_per_1000: "R&D personnel per 1,000",
+    rd_personnel_flags: "Flags", researchers_is_current: "In ranking?"
+  },
+  format: {researchers_year: d => d ?? "", rd_personnel_year: d => d ?? ""},
+  rows: 20
+})
+```
+:::
+
+::: {.callout-note collapse="true"}
+## Table: every country-year
+
+```{ojs}
+//| code-summary: "Show the table code"
+viewof tableSearch = Inputs.search(series, {placeholder: "Filter by country, year or flag…"})
+Inputs.table(tableSearch, {
+  columns: ["country", "year", "researchers_per_1000", "rd_personnel_per_1000", "researchers_flags", "rd_personnel_flags"],
+  header: {
+    country: "Country", year: "Year", researchers_per_1000: "Researchers per 1,000",
+    rd_personnel_per_1000: "R&D personnel per 1,000", researchers_flags: "Researcher flags",
+    rd_personnel_flags: "Personnel flags"
+  },
+  format: {year: d => String(d)},
+  rows: 20
+})
+```
+:::
+
+## Inspect the evidence
+
+| Artifact | What it contains |
+|---|---|
+| [Original OECD data response](data/raw/oecd-msti-rd-personnel.csv) | The exact SDMX-CSV the OECD returned (27,330 rows) |
+| [Original OECD metadata response](data/raw/oecd-msti-structure.json) | Codelists used to label countries and status flags |
+| [Snapshot manifest](data/raw/manifest.json) | Request URLs, retrieval time and SHA-256 checksums |
+| [Source ledger](sources.yml) | Publisher, dataflow, measures, URLs and terms |
+| [Retrieval script](scripts/fetch_data.py) | Downloads and checks the two responses |
+| [Transformation script](scripts/analyze.py) | Every cleaning, verification and aggregation step |
+| [Thumbnail script](scripts/make_thumbnail.py) | Draws the preview image from the processed data |
+| [Latest by country](data/processed/latest_by_country.csv) | The ranking table |
+| [Country-year time series](data/processed/researchers_timeseries.csv) | The trend table |
+| [Sector shares](data/processed/sector_shares_latest.csv) | The sector breakdown |
+| [Ratio verification](data/processed/ratio_check.csv) | Our recomputation of every OECD ratio |
+
+These files are also versioned in the [public repository](https://github.com/paul-j-hamilton/public-data-investigations), which has the complete code and its revision history.
+
+## Methodology
+
+The pipeline has two stages. `fetch_data.py` is the only step that uses the network. It saves the OECD's responses exactly as received, along with checksums. `analyze.py` then works offline from those files:
+
+1. reads the OECD's metadata and builds a code → label lookup;
+2. keeps levels only (drops growth-rate rows) and drops blank cells, and stops if it finds any duplicate observation;
+3. rebuilds every published per-1,000 ratio from FTE and total employment, and stops if any differs by more than 10⁻⁶;
+4. builds one row per country-year with both ratios and their status flags in words;
+5. takes each country's latest value for each ratio and marks as out of date any figure more than five years older than the newest year in the data; and
+6. takes sector shares from each country's latest complete year and shows the unallocated remainder explicitly.
+
+No values are typed in, edited, filled in or smoothed by hand. To rebuild the processed tables from the committed snapshot, with no network:
+
+```bash
+python3 investigations/oecd-rd-workforce/scripts/analyze.py
+python3 investigations/oecd-rd-workforce/scripts/make_thumbnail.py
+```
+
+To take a new snapshot from the OECD and rebuild everything:
+
+```bash
+python3 investigations/oecd-rd-workforce/scripts/fetch_data.py
+python3 investigations/oecd-rd-workforce/scripts/analyze.py
+python3 investigations/oecd-rd-workforce/scripts/make_thumbnail.py
+```
+
+::: {.callout-note collapse="true"}
+## Code: `fetch_data.py` in full
+
+```{.python include="scripts/fetch_data.py"}
+```
+:::
+
+::: {.callout-note collapse="true"}
+## Code: `analyze.py` in full
+
+```{.python include="scripts/analyze.py"}
+```
+:::
+
+## Limitations
+
+- **R&D is not all of science.** This measures people doing R&D under the Frascati definition, not everyone with a science job or a science degree.
+- **FTE is not headcount.** Many more people do *some* research than the FTE totals suggest, especially in universities.
+- **Comparability is imperfect.** Many values carry *definition differs*, *estimated* or *provisional* flags, and national surveys differ in coverage. Small gaps between countries should not be over-read.
+- **Breaks in series** mean some year-to-year changes are partly changes in method.
+- **Coverage is uneven.** Australia (latest 2008), the United Kingdom and Mexico (2017) are left out of the ranking as out of date. Israel publishes R&D personnel but not a researcher ratio. Most of the world outside the OECD and its partners is not covered at all.
+- **The data will be revised.** The OECD updates MSTI twice a year and may revise past values. The committed snapshot is the record of what this article used.
+- **This is descriptive.** It shows how large the research workforce is. It does not show why, or whether a larger one is better.
+
+## Sources
+
+OECD, *Main Science and Technology Indicators* (dataflow `OECD.STI.STP,DSD_MSTI@DF_MSTI`), measures `T_RS`, `T_TT`, `B_RS`, `G_RS`, `H_RS` and `TOT_EMP`. Retrieved September 29, 2026 through the [OECD SDMX API](https://sdmx.oecd.org/public/rest/data/OECD.STI.STP,DSD_MSTI@DF_MSTI,/.A.T_RS+T_TT+B_RS+G_RS+H_RS+TOT_EMP...?dimensionAtObservation=AllDimensions). It can be browsed in the [OECD Data Explorer](https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_MSTI%40DF_MSTI&df[ag]=OECD.STI.STP). Definitions follow the OECD's [*Frascati Manual 2015*](https://www.oecd.org/en/publications/frascati-manual-2015_9789264239012-en.html).
+
+## Corrections and revisions
+
+No corrections have been issued. The repository's commit history records all changes to this article, its code, and its data.

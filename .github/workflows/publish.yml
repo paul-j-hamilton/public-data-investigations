@@ -25,7 +25,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Rebuild derived data from committed raw snapshots
-        run: python3 investigations/us-population-growth/scripts/analyze.py
+        run: make reproduce
 
       - name: Verify derived data is committed and current
         run: git diff --exit-code

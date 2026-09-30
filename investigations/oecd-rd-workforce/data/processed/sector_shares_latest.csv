@@ -1,0 +1,173 @@
+country_code,country,year,sector,share_pct,flags
+AUT,Austria,2024,Business,64.547,Definition differs; Provisional value
+AUT,Austria,2024,Government,6.928,Definition differs; Provisional value
+AUT,Austria,2024,Higher education,27.607,Definition differs; Provisional value
+AUT,Austria,2024,Other / unallocated,0.917,Calculated by us as 100 minus the three published shares
+BEL,Belgium,2024,Business,55.185,Definition differs; Provisional value
+BEL,Belgium,2024,Government,10.586,Definition differs; Provisional value
+BEL,Belgium,2024,Higher education,33.085,Definition differs; Provisional value
+BEL,Belgium,2024,Other / unallocated,1.145,Calculated by us as 100 minus the three published shares
+BGR,Bulgaria,2024,Business,52.94,Definition differs
+BGR,Bulgaria,2024,Government,27.498,Definition differs
+BGR,Bulgaria,2024,Higher education,18.982,Definition differs
+BGR,Bulgaria,2024,Other / unallocated,0.58,Calculated by us as 100 minus the three published shares
+CAN,Canada,2023,Business,66.156,
+CAN,Canada,2023,Government,4.103,
+CAN,Canada,2023,Higher education,29.417,
+CAN,Canada,2023,Other / unallocated,0.323,Calculated by us as 100 minus the three published shares
+CHE,Switzerland,2023,Business,49.268,
+CHE,Switzerland,2023,Government,1.387,Definition differs
+CHE,Switzerland,2023,Higher education,49.346,Definition differs
+CHE,Switzerland,2023,Other / unallocated,0,Calculated by us as 100 minus the three published shares
+CHL,Chile,2022,Business,37.681,Definition differs
+CHL,Chile,2022,Government,10.9,Definition differs
+CHL,Chile,2022,Higher education,42.059,Definition differs
+CHL,Chile,2022,Other / unallocated,9.36,Calculated by us as 100 minus the three published shares
+CHN,China (People’s Republic of),2024,Business,60.435,
+CHN,China (People’s Republic of),2024,Government,14.723,
+CHN,China (People’s Republic of),2024,Higher education,24.842,
+CHN,China (People’s Republic of),2024,Other / unallocated,0.0,Calculated by us as 100 minus the three published shares
+CRI,Costa Rica,2024,Business,26.73,
+CRI,Costa Rica,2024,Government,18.673,
+CRI,Costa Rica,2024,Higher education,54.597,
+CRI,Costa Rica,2024,Other / unallocated,0.0,Calculated by us as 100 minus the three published shares
+CZE,Czechia,2024,Business,53.853,Provisional value
+CZE,Czechia,2024,Government,16.24,Provisional value
+CZE,Czechia,2024,Higher education,29.327,Provisional value
+CZE,Czechia,2024,Other / unallocated,0.579,Calculated by us as 100 minus the three published shares
+DEU,Germany,2024,Business,62.951,Provisional value
+DEU,Germany,2024,Government,10.661,Provisional value
+DEU,Germany,2024,Higher education,23.972,Provisional value
+DEU,Germany,2024,Other / unallocated,2.417,Calculated by us as 100 minus the three published shares
+DNK,Denmark,2024,Business,58.949,Definition differs; Provisional value
+DNK,Denmark,2024,Government,3.602,Definition differs; Provisional value
+DNK,Denmark,2024,Higher education,36.984,Definition differs; Provisional value
+DNK,Denmark,2024,Other / unallocated,0.465,Calculated by us as 100 minus the three published shares
+ESP,Spain,2024,Business,40.88,Definition differs
+ESP,Spain,2024,Government,14.588,Definition differs
+ESP,Spain,2024,Higher education,44.233,Definition differs
+ESP,Spain,2024,Other / unallocated,0.3,Calculated by us as 100 minus the three published shares
+EST,Estonia,2024,Business,50.425,Definition differs
+EST,Estonia,2024,Government,7.113,Definition differs
+EST,Estonia,2024,Higher education,41.348,Definition differs
+EST,Estonia,2024,Other / unallocated,1.115,Calculated by us as 100 minus the three published shares
+EU27_2020,European Union (27 countries from 01/02/2020),2024,Business,56.571,Estimated value
+EU27_2020,European Union (27 countries from 01/02/2020),2024,Government,10.192,Estimated value
+EU27_2020,European Union (27 countries from 01/02/2020),2024,Higher education,31.886,Estimated value
+EU27_2020,European Union (27 countries from 01/02/2020),2024,Other / unallocated,1.351,Calculated by us as 100 minus the three published shares
+FIN,Finland,2024,Business,60.021,
+FIN,Finland,2024,Government,7.942,
+FIN,Finland,2024,Higher education,31.272,
+FIN,Finland,2024,Other / unallocated,0.764,Calculated by us as 100 minus the three published shares
+FRA,France,2024,Business,62.234,Provisional value
+FRA,France,2024,Government,9.097,Provisional value
+FRA,France,2024,Higher education,27.05,Provisional value
+FRA,France,2024,Other / unallocated,1.619,Calculated by us as 100 minus the three published shares
+GRC,Greece,2024,Business,33.22,Definition differs; Provisional value
+GRC,Greece,2024,Government,18.982,Definition differs; Provisional value
+GRC,Greece,2024,Higher education,47.29,Definition differs; Provisional value
+GRC,Greece,2024,Other / unallocated,0.508,Calculated by us as 100 minus the three published shares
+HRV,Croatia,2024,Business,26.022,Definition differs; Provisional value
+HRV,Croatia,2024,Government,22.961,Definition differs; Provisional value
+HRV,Croatia,2024,Higher education,50.836,Definition differs; Provisional value
+HRV,Croatia,2024,Other / unallocated,0.182,Calculated by us as 100 minus the three published shares
+HUN,Hungary,2024,Business,65.825,Definition differs
+HUN,Hungary,2024,Government,12.707,Definition differs
+HUN,Hungary,2024,Higher education,21.468,Definition differs
+HUN,Hungary,2024,Other / unallocated,0,Calculated by us as 100 minus the three published shares
+IRL,Ireland,2024,Business,49.133,Definition differs; Provisional value
+IRL,Ireland,2024,Government,2.864,Definition differs; Provisional value
+IRL,Ireland,2024,Higher education,47.99,Definition differs; Provisional value
+IRL,Ireland,2024,Other / unallocated,0.013,Calculated by us as 100 minus the three published shares
+ISL,Iceland,2023,Business,52.134,
+ISL,Iceland,2023,Government,4.309,
+ISL,Iceland,2023,Higher education,43.599,
+ISL,Iceland,2023,Other / unallocated,0,Calculated by us as 100 minus the three published shares
+ITA,Italy,2024,Business,40.755,Definition differs; Provisional value
+ITA,Italy,2024,Government,15.346,Definition differs; Provisional value
+ITA,Italy,2024,Higher education,40.966,Definition differs; Estimated value; Provisional value
+ITA,Italy,2024,Other / unallocated,2.934,Calculated by us as 100 minus the three published shares
+JPN,Japan,2024,Business,74.811,Definition differs
+JPN,Japan,2024,Government,4.275,Definition differs
+JPN,Japan,2024,Higher education,19.857,Definition differs
+JPN,Japan,2024,Other / unallocated,1.057,Calculated by us as 100 minus the three published shares
+KOR,Korea,2024,Business,81.85,
+KOR,Korea,2024,Government,5.917,
+KOR,Korea,2024,Higher education,10.079,
+KOR,Korea,2024,Other / unallocated,2.154,Calculated by us as 100 minus the three published shares
+LTU,Lithuania,2024,Business,31.77,Provisional value
+LTU,Lithuania,2024,Government,15.401,Provisional value
+LTU,Lithuania,2024,Higher education,52.546,Provisional value
+LTU,Lithuania,2024,Other / unallocated,0.283,Calculated by us as 100 minus the three published shares
+LUX,Luxembourg,2024,Business,31.184,Definition differs; Provisional value
+LUX,Luxembourg,2024,Government,22.128,Definition differs; Provisional value
+LUX,Luxembourg,2024,Higher education,46.688,Definition differs; Provisional value
+LUX,Luxembourg,2024,Other / unallocated,0,Calculated by us as 100 minus the three published shares
+LVA,Latvia,2024,Business,33.418,Definition differs
+LVA,Latvia,2024,Government,12.989,Definition differs
+LVA,Latvia,2024,Higher education,53.593,Definition differs
+LVA,Latvia,2024,Other / unallocated,0.0,Calculated by us as 100 minus the three published shares
+NLD,Netherlands,2024,Business,71.493,Provisional value
+NLD,Netherlands,2024,Government,4.806,Definition differs; Provisional value
+NLD,Netherlands,2024,Higher education,23.701,Provisional value
+NLD,Netherlands,2024,Other / unallocated,0,Calculated by us as 100 minus the three published shares
+NOR,Norway,2024,Business,53.919,Provisional value
+NOR,Norway,2024,Government,11.197,Provisional value
+NOR,Norway,2024,Higher education,34.883,Provisional value
+NOR,Norway,2024,Other / unallocated,0.0,Calculated by us as 100 minus the three published shares
+NZL,New Zealand,2023,Business,42.857,
+NZL,New Zealand,2023,Government,6.786,
+NZL,New Zealand,2023,Higher education,50.0,
+NZL,New Zealand,2023,Other / unallocated,0.357,Calculated by us as 100 minus the three published shares
+OECD,OECD,2023,Business,66.572,Estimated value
+OECD,OECD,2023,Government,7.266,Estimated value
+OECD,OECD,2023,Higher education,24.21,Estimated value
+OECD,OECD,2023,Other / unallocated,1.951,Calculated by us as 100 minus the three published shares
+POL,Poland,2024,Business,56.186,Definition differs; Provisional value
+POL,Poland,2024,Government,2.321,Definition differs; Provisional value
+POL,Poland,2024,Higher education,41.072,Definition differs; Provisional value
+POL,Poland,2024,Other / unallocated,0.422,Calculated by us as 100 minus the three published shares
+PRT,Portugal,2024,Business,46.927,Definition differs
+PRT,Portugal,2024,Government,2.947,Definition differs
+PRT,Portugal,2024,Higher education,48.279,Definition differs
+PRT,Portugal,2024,Other / unallocated,1.848,Calculated by us as 100 minus the three published shares
+ROU,Romania,2024,Business,37.914,Definition differs; Provisional value
+ROU,Romania,2024,Government,30.44,Definition differs; Provisional value
+ROU,Romania,2024,Higher education,30.646,Definition differs; Provisional value
+ROU,Romania,2024,Other / unallocated,1.0,Calculated by us as 100 minus the three published shares
+RUS,Russia,2020,Business,46.543,
+RUS,Russia,2020,Government,32.983,
+RUS,Russia,2020,Higher education,19.856,
+RUS,Russia,2020,Other / unallocated,0.618,Calculated by us as 100 minus the three published shares
+SGP,Singapore,2023,Business,54.422,
+SGP,Singapore,2023,Government,14.377,
+SGP,Singapore,2023,Higher education,31.201,
+SGP,Singapore,2023,Other / unallocated,0.0,Calculated by us as 100 minus the three published shares
+SVK,Slovak Republic,2024,Business,34.571,Definition differs
+SVK,Slovak Republic,2024,Government,16.427,Definition differs
+SVK,Slovak Republic,2024,Higher education,48.825,Definition differs
+SVK,Slovak Republic,2024,Other / unallocated,0.176,Calculated by us as 100 minus the three published shares
+SVN,Slovenia,2024,Business,55.872,Definition differs
+SVN,Slovenia,2024,Government,19.817,Definition differs
+SVN,Slovenia,2024,Higher education,23.211,Definition differs
+SVN,Slovenia,2024,Other / unallocated,1.1,Calculated by us as 100 minus the three published shares
+SWE,Sweden,2024,Business,72.59,
+SWE,Sweden,2024,Government,4.929,
+SWE,Sweden,2024,Higher education,22.232,
+SWE,Sweden,2024,Other / unallocated,0.25,Calculated by us as 100 minus the three published shares
+TUR,Türkiye,2024,Business,66.315,
+TUR,Türkiye,2024,Government,2.502,
+TUR,Türkiye,2024,Higher education,31.183,
+TUR,Türkiye,2024,Other / unallocated,0,Calculated by us as 100 minus the three published shares
+TWN,Chinese Taipei,2024,Business,75.346,
+TWN,Chinese Taipei,2024,Government,8.442,
+TWN,Chinese Taipei,2024,Higher education,16.125,
+TWN,Chinese Taipei,2024,Other / unallocated,0.087,Calculated by us as 100 minus the three published shares
+USA,United States,2023,Business,76.393,Estimated value
+USA,United States,2023,Government,5.658,Estimated value
+USA,United States,2023,Higher education,11.467,Estimated value
+USA,United States,2023,Other / unallocated,6.482,Calculated by us as 100 minus the three published shares
+ZAF,South Africa,2023,Business,11.177,
+ZAF,South Africa,2023,Government,9.563,
+ZAF,South Africa,2023,Higher education,77.988,
+ZAF,South Africa,2023,Other / unallocated,1.272,Calculated by us as 100 minus the three published shares
