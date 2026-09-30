@@ -1,0 +1,68 @@
+:root {
+  --ink: #18302d;
+  --teal: #136f63;
+  --amber: #d9903d;
+  --rule: #d9d3c8;
+}
+
+body {
+  background: var(--bs-body-bg);
+}
+
+.navbar {
+  border-bottom: 1px solid var(--rule);
+}
+
+.navbar-brand,
+h1,
+h2,
+h3 {
+  letter-spacing: -0.025em;
+}
+
+h1.title {
+  max-width: 18ch;
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 0.98;
+}
+
+.quarto-title .subtitle {
+  max-width: 44rem;
+  font-size: 1.35rem;
+  color: #52615e;
+}
+
+.investigation-meta {
+  margin: 1.5rem 0 2.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 5px solid var(--teal);
+  background: #e8f0ed;
+  font-size: 0.93rem;
+}
+
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  background: var(--bs-body-bg);
+}
+
+.card-title {
+  font-size: 1.35rem;
+}
+
+table {
+  font-size: 0.93rem;
+}
+
+code {
+  color: #8b3e19;
+}
+
+.page-footer {
+  border-top: 1px solid var(--rule);
+}
+
+.quarto-dark .investigation-meta {
+  background: #18332e;
+  color: #ecf2ef;
+}

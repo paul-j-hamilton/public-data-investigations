@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/investigations/us-population-growth/index.html"
+    ]
+  },
+  {
+    "listing": "/investigations/index.html",
+    "items": [
+      "/investigations/us-population-growth/index.html"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized population trend line</title>
+  <desc id="desc">A rising teal line over a warm off-white grid.</desc>
+  <rect width="1200" height="630" fill="#f4f0e8"/>
+  <g stroke="#d7d0c4" stroke-width="2">
+    <path d="M100 110H1100M100 220H1100M100 330H1100M100 440H1100M100 550H1100"/>
+    <path d="M100 80V550M300 80V550M500 80V550M700 80V550M900 80V550M1100 80V550"/>
+  </g>
+  <path d="M100 500 C260 475 350 430 475 405 S670 350 760 315 S925 265 1100 155" fill="none" stroke="#136f63" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="1100" cy="155" r="22" fill="#d9903d"/>
+  <text x="100" y="75" fill="#18302d" font-family="system-ui, sans-serif" font-size="40" font-weight="700">U.S. population, 1960–2025</text>
+</svg>
+
