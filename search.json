@@ -21,20 +21,6 @@
     "text": "Licensing\nUnless an investigation says otherwise, original writing is intended for release under CC BY 4.0 and original code under the MIT License. Third-party data retains its original terms."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Public Record",
-    "section": "",
-    "text": "Every finding here begins with public data and ends with a public trail: original sources, preserved data, complete code, assumptions, limitations, and correction history."
-  },
-  {
-    "objectID": "index.html#latest-investigations",
-    "href": "index.html#latest-investigations",
-    "title": "The Public Record",
-    "section": "Latest investigations",
-    "text": "Latest investigations"
-  },
-  {
     "objectID": "investigations/us-population-growth/index.html",
     "href": "investigations/us-population-growth/index.html",
     "title": "The long slowdown in U.S. population growth",
@@ -91,13 +77,6 @@
     "text": "Corrections and revisions\nNo corrections have been issued. The repository’s commit history records all changes to this article, its code, and its data."
   },
   {
-    "objectID": "investigations/index.html",
-    "href": "investigations/index.html",
-    "title": "Investigations",
-    "section": "",
-    "text": "The long slowdown in U.S. population growth\n\n\nA small demonstration of an investigation with an inspectable evidence trail\n\n\n\ndemography\n\nUnited States\n\nexample\n\n\n\nWorld Bank population estimates show how the pace of U.S. growth has changed since 1960.\n\n\n\n\n\nSep 29, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "standards.html",
     "href": "standards.html",
     "title": "How we work",
@@ -131,5 +110,26 @@
     "title": "How we work",
     "section": "Corrections policy",
     "text": "Corrections policy\nSilent substantive edits are not acceptable. Typographical fixes may rely on Git history; factual or analytical changes should add a dated correction note explaining the original statement, the change, and its effect on the conclusion."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Public Record",
+    "section": "",
+    "text": "Every finding here begins with public data and ends with a public trail: original sources, preserved data, complete code, assumptions, limitations, and correction history."
+  },
+  {
+    "objectID": "index.html#latest-investigations",
+    "href": "index.html#latest-investigations",
+    "title": "The Public Record",
+    "section": "Latest investigations",
+    "text": "Latest investigations"
+  },
+  {
+    "objectID": "investigations/index.html",
+    "href": "investigations/index.html",
+    "title": "Investigations",
+    "section": "",
+    "text": "The long slowdown in U.S. population growth\n\n\nA small demonstration of an investigation with an inspectable evidence trail\n\n\n\ndemography\n\nUnited States\n\nexample\n\n\n\nWorld Bank population estimates show how the pace of U.S. growth has changed since 1960.\n\n\n\n\n\nSep 29, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
