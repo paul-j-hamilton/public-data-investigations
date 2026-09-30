@@ -1,0 +1,22 @@
+---
+title: "The Public Record"
+subtitle: "Investigations you can inspect, reproduce, and challenge"
+page-layout: full
+listing:
+  contents: "investigations/*/index.qmd"
+  sort: "date desc"
+  type: grid
+  fields: [image, date, title, subtitle, description, categories]
+  grid-columns: 2
+  image-height: 220px
+---
+
+Every finding here begins with public data and ends with a public trail: original sources, preserved data, complete code, assumptions, limitations, and correction history.
+
+::: {.callout-note appearance="simple"}
+## The transparency promise
+
+Every investigation includes a source ledger, methodology, downloadable data, and the code needed to reproduce its results. The public repository records every revision.
+:::
+
+## Latest investigations

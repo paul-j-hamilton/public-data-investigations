@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - investigations/**/data/**
+    - investigations/**/scripts/**
+    - investigations/**/sources.yml
+
+website:
+  title: "The Public Record"
+  description: "Transparent investigations built from public data."
+  site-url: https://paul-j-hamilton.github.io/public-data-investigations
+  open-graph: true
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Investigations
+      - href: standards.qmd
+        text: How we work
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/paul-j-hamilton/public-data-investigations
+        aria-label: Source repository
+  page-footer:
+    left: "Reporting and analysis are published with sources, code, and revision history."
+    right:
+      - text: "Methods"
+        href: standards.qmd
+      - text: "Source code"
+        href: https://github.com/paul-j-hamilton/public-data-investigations
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-summary: "Show code"
+    code-copy: true
+    anchor-sections: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

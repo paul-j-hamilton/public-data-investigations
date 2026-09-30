@@ -1,0 +1,7 @@
+{
+  "source_url": "https://api.worldbank.org/v2/country/USA/indicator/SP.POP.TOTL?format=json&per_page=100",
+  "retrieved_at_utc": "2026-09-30T01:23:12+00:00",
+  "sha256": "30c1f1ef58a030ae09b87088c115b4d388385044de3736eb467519e9fbfa845e",
+  "bytes": 13490,
+  "records": 66
+}

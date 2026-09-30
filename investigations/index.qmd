@@ -1,0 +1,9 @@
+---
+title: "Investigations"
+listing:
+  contents: "**/index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, subtitle, description, categories]
+---
+

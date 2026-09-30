@@ -1,0 +1,16 @@
+---
+title: "About"
+description: "Why this publication exists and how to scrutinize its work."
+---
+
+The Public Record is a starter publication for evidence-led investigations of public data. Its central rule is simple: a reader should be able to trace every published claim back to a source and inspect every consequential transformation.
+
+The finished article is only one view of the work. The repository also preserves the source snapshot, retrieval details, cleaning and analysis code, assumptions, limitations, and revision history.
+
+## Contact and corrections
+
+Corrections can be proposed through the [public GitHub repository](https://github.com/paul-j-hamilton/public-data-investigations/issues). A correction should identify what changed, when it changed, and whether the change affected the article's conclusions. Material corrections belong both on the article and in the repository history.
+
+## Licensing
+
+Unless an investigation says otherwise, original writing is intended for release under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and original code under the [MIT License](https://opensource.org/license/mit). Third-party data retains its original terms.

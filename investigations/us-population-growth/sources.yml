@@ -1,0 +1,13 @@
+- id: world-bank-sp-pop-totl-usa
+  publisher: World Bank
+  title: "Population, total — United States"
+  indicator: SP.POP.TOTL
+  original_url: "https://api.worldbank.org/v2/country/USA/indicator/SP.POP.TOTL?format=json&per_page=100"
+  metadata_url: "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  retrieved_at: "2026-09-29T21:30:00-04:00"
+  geographic_scope: United States
+  temporal_scope: "1960–2025 in the retrieved snapshot"
+  format: JSON
+  terms_url: "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+  notes: "The raw response is committed under data/raw. The publisher may revise historical values."
+
