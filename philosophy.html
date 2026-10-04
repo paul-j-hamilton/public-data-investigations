@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The publication standard for transparent, reproducible investigations.">
 
-<title>How we work – The Public Record</title>
+<title>Philosophy – A Dangerous Thing</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -81,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="How we work – The Public Record">
-<meta property="og:description" content="The publication standard for transparent, reproducible investigations.">
-<meta property="og:site_name" content="The Public Record">
+<meta property="og:title" content="Philosophy – A Dangerous Thing">
+<meta property="og:description" content="Transparent investigations built from public data.">
+<meta property="og:site_name" content="A Dangerous Thing">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -256,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">The Public Record</span>
+    <span class="navbar-title">A Dangerous Thing</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -270,12 +269,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Investigations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./standards.html" aria-current="page"> 
-<span class="menu-text">How we work</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link active" href="./philosophy.html" aria-current="page"> 
+<span class="menu-text">Philosophy</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -301,10 +296,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-every-investigation-contains" id="toc-what-every-investigation-contains" class="nav-link active" data-scroll-target="#what-every-investigation-contains">What every investigation contains</a></li>
+  <li><a href="#style" id="toc-style" class="nav-link active" data-scroll-target="#style">Style</a></li>
+  <li><a href="#checklist" id="toc-checklist" class="nav-link" data-scroll-target="#checklist">Checklist</a>
+  <ul class="collapse">
   <li><a href="#evidence-hierarchy" id="toc-evidence-hierarchy" class="nav-link" data-scroll-target="#evidence-hierarchy">Evidence hierarchy</a></li>
   <li><a href="#reproduction-levels" id="toc-reproduction-levels" class="nav-link" data-scroll-target="#reproduction-levels">Reproduction levels</a></li>
-  <li><a href="#corrections-policy" id="toc-corrections-policy" class="nav-link" data-scroll-target="#corrections-policy">Corrections policy</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -314,14 +311,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How we work</h1>
+<h1 class="title">Philosophy</h1>
 </div>
 
-<div>
-  <div class="description">
-    The publication standard for transparent, reproducible investigations.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -336,38 +328,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-every-investigation-contains" class="level2">
-<h2 class="anchored" data-anchor-id="what-every-investigation-contains">What every investigation contains</h2>
+<section id="style" class="level2">
+<h2 class="anchored" data-anchor-id="style">Style</h2>
 <ol type="1">
-<li><strong>A precise question.</strong> The article distinguishes the question the data can answer from broader questions it cannot.</li>
-<li><strong>A source ledger.</strong> Every dataset has a publisher, original URL, retrieval date, description, and license or terms link.</li>
-<li><strong>A preserved snapshot.</strong> The exact raw input used for publication is committed whenever its terms and size allow it. Large or restricted files receive a checksum and durable archive location instead.</li>
-<li><strong>A complete transformation path.</strong> Scripts convert raw inputs into analysis-ready files without undocumented manual edits.</li>
-<li><strong>Visible analytical choices.</strong> Definitions, exclusions, joins, missing-data treatment, and material assumptions are explained in ordinary language and code.</li>
-<li><strong>Reproducible outputs.</strong> A single documented command rebuilds derived data and the site.</li>
-<li><strong>Limitations and uncertainty.</strong> The article states what the evidence does not establish.</li>
-<li><strong>Revision history.</strong> Git records the complete change history; material corrections are also described in the article.</li>
+<li><em>Transparency.</em> I want each investigation to be</li>
 </ol>
 </section>
-<section id="evidence-hierarchy" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-hierarchy">Evidence hierarchy</h2>
+<section id="checklist" class="level2">
+<h2 class="anchored" data-anchor-id="checklist">Checklist</h2>
+<p>I try to make sure every investigation contains the following:</p>
+<ol type="1">
+<li><em>A source ledger.</em> Every dataset has a publisher, original URL, retrieval date, description, and license or terms link.</li>
+<li><em>A preserved snapshot.</em> The exact raw input used for publication is committed whenever its terms and size allow it. Large or restricted files receive a checksum and durable archive location instead.</li>
+<li><em>A complete transformation path.</em> Scripts convert raw inputs into analysis-ready files without undocumented manual edits.</li>
+<li><em>Visible analytical choices.</em> Definitions, exclusions, joins, missing-data treatment, and material assumptions are explained in ordinary language and code.</li>
+<li><em>Reproducible outputs.</em> A single documented command rebuilds derived data and the site.</li>
+<li><em>Limitations and uncertainty.</em> The article states what the evidence does not establish.</li>
+</ol>
+<section id="evidence-hierarchy" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-hierarchy">Evidence hierarchy</h3>
 <p>Primary government and institutional sources are preferred. Mirrors and aggregators may aid discovery, but the article should link to the originating publisher whenever possible. A source’s official status does not make it error-free; definitions, revisions, collection methods, and known limitations still require scrutiny.</p>
 </section>
-<section id="reproduction-levels" class="level2">
-<h2 class="anchored" data-anchor-id="reproduction-levels">Reproduction levels</h2>
+<section id="reproduction-levels" class="level3">
+<h3 class="anchored" data-anchor-id="reproduction-levels">Reproduction levels</h3>
 <p>Each article declares one of these levels:</p>
 <ul>
-<li><strong>Fully reproducible:</strong> all necessary inputs and code are included or openly downloadable.</li>
-<li><strong>Reproducible with external data:</strong> code is complete, but a documented download is required because data is too large to commit.</li>
-<li><strong>Partially reproducible:</strong> a legal, privacy, or access constraint prevents redistribution; the missing component and verification approach are stated prominently.</li>
+<li><em>Fully reproducible:</em> all necessary inputs and code are included or openly downloadable.</li>
+<li><em>Reproducible with external data:</em> code is complete, but a documented download is required because data is too large to commit.</li>
+<li><em>Partially reproducible:</em> a legal, privacy, or access constraint prevents redistribution; the missing component and verification approach are stated prominently.</li>
 </ul>
-<p>The example investigation in this starter is fully reproducible from its committed snapshot. Refreshing the snapshot requires internet access, but reproducing the published result does not.</p>
+
+
 </section>
-<section id="corrections-policy" class="level2">
-<h2 class="anchored" data-anchor-id="corrections-policy">Corrections policy</h2>
-<p>Silent substantive edits are not acceptable. Typographical fixes may rely on Git history; factual or analytical changes should add a dated correction note explaining the original statement, the change, and its effect on the conclusion.</p>
-
-
 </section>
 
 </main> <!-- /main -->
@@ -800,11 +792,6 @@ ul.task-list li input[type="checkbox"] {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./standards.html">
-<p>Methods</p>
-</a>
-  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://github.com/paul-j-hamilton/public-data-investigations">
 <p>Source code</p>

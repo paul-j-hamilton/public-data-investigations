@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="system-ui, sans-serif" font-size="15">
+<rect width="800" height="440" fill="#f7f5f0"/>
+<text x="180" y="42.2" text-anchor="end" fill="#18302d">Finland</text>
+<rect x="190" y="24" width="540.0" height="26" rx="3" fill="#136f63"/>
+<text x="738.0" y="42.2" fill="#52615e">17.8</text>
+<text x="180" y="75.2" text-anchor="end" fill="#18302d">Korea</text>
+<rect x="190" y="57" width="534.1" height="26" rx="3" fill="#136f63"/>
+<text x="732.1" y="75.2" fill="#52615e">17.6</text>
+<text x="180" y="108.2" text-anchor="end" fill="#18302d">Sweden</text>
+<rect x="190" y="90" width="520.7" height="26" rx="3" fill="#136f63"/>
+<text x="718.7" y="108.2" fill="#52615e">17.2</text>
+<text x="180" y="141.2" text-anchor="end" fill="#18302d">Denmark</text>
+<rect x="190" y="123" width="501.0" height="26" rx="3" fill="#136f63"/>
+<text x="699.0" y="141.2" fill="#52615e">16.5</text>
+<text x="180" y="174.2" text-anchor="end" fill="#18302d">Taiwan</text>
+<rect x="190" y="156" width="473.0" height="26" rx="3" fill="#136f63"/>
+<text x="671.0" y="174.2" fill="#52615e">15.6</text>
+<text x="180" y="207.2" text-anchor="end" fill="#18302d">Belgium</text>
+<rect x="190" y="189" width="430.3" height="26" rx="3" fill="#136f63"/>
+<text x="628.3" y="207.2" fill="#52615e">14.2</text>
+<text x="180" y="240.2" text-anchor="end" fill="#18302d">Austria</text>
+<rect x="190" y="222" width="396.2" height="26" rx="3" fill="#136f63"/>
+<text x="594.2" y="240.2" fill="#52615e">13.1</text>
+<text x="180" y="273.2" text-anchor="end" fill="#18302d">Norway</text>
+<rect x="190" y="255" width="395.5" height="26" rx="3" fill="#136f63"/>
+<text x="593.5" y="273.2" fill="#52615e">13.0</text>
+<text x="180" y="306.2" text-anchor="end" fill="#18302d">Singapore</text>
+<rect x="190" y="288" width="382.9" height="26" rx="3" fill="#136f63"/>
+<text x="580.9" y="306.2" fill="#52615e">12.6</text>
+<text x="180" y="339.2" text-anchor="end" fill="#18302d">Portugal</text>
+<rect x="190" y="321" width="375.2" height="26" rx="3" fill="#136f63"/>
+<text x="573.2" y="339.2" fill="#52615e">12.4</text>
+<text x="180" y="372.2" text-anchor="end" fill="#18302d">France</text>
+<rect x="190" y="354" width="358.5" height="26" rx="3" fill="#136f63"/>
+<text x="556.5" y="372.2" fill="#52615e">11.8</text>
+<text x="180" y="405.2" text-anchor="end" fill="#18302d">Netherlands</text>
+<rect x="190" y="387" width="356.4" height="26" rx="3" fill="#136f63"/>
+<text x="554.4" y="405.2" fill="#52615e">11.8</text>
+</svg>

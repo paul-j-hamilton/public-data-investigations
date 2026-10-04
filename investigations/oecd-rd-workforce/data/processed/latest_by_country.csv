@@ -1,0 +1,48 @@
+country_code,country,is_aggregate,researchers_year,researchers_per_1000,researchers_flags,rd_personnel_year,rd_personnel_per_1000,rd_personnel_flags,researchers_is_current,rd_personnel_is_current,researchers_pct_of_workforce
+FIN,Finland,false,2024,17.8095,,2024,22.7884,,true,true,1.781
+KOR,Korea,false,2024,17.6146,,2024,21.8636,,true,true,1.761
+SWE,Sweden,false,2024,17.1717,,2024,19.4333,,true,true,1.717
+DNK,Denmark,false,2024,16.5247,Definition differs; Provisional value,2024,22.2654,Definition differs; Provisional value,true,true,1.652
+TWN,Taiwan,false,2024,15.5995,,2024,26.8353,,true,true,1.56
+BEL,Belgium,false,2024,14.1912,Definition differs; Provisional value,2024,21.3417,Definition differs; Provisional value,true,true,1.419
+AUT,Austria,false,2024,13.0669,Definition differs; Provisional value,2024,20.1871,Definition differs; Provisional value,true,true,1.307
+NOR,Norway,false,2024,13.0432,Provisional value,2024,17.5717,Provisional value,true,true,1.304
+SGP,Singapore,false,2023,12.6292,,2023,14.6058,,true,true,1.263
+PRT,Portugal,false,2024,12.3751,Definition differs; Provisional value,2024,15.9255,Definition differs; Provisional value,true,true,1.238
+FRA,France,false,2024,11.8219,Provisional value,2024,17.0073,Provisional value,true,true,1.182
+NLD,Netherlands,false,2024,11.7531,Provisional value,2024,19.303,Provisional value,true,true,1.175
+CAN,Canada,false,2023,11.3211,,2023,15.7095,,true,true,1.132
+DEU,Germany,false,2024,11.1575,Provisional value,2024,18.2595,Provisional value,true,true,1.116
+IRL,Ireland,false,2024,11.1484,Definition differs; Provisional value,2024,16.418,Definition differs; Provisional value,true,true,1.115
+EST,Estonia,false,2024,10.908,Definition differs,2024,14.2501,Definition differs,true,true,1.091
+ISL,Iceland,false,2023,10.8429,Provisional value,2023,19.3587,Provisional value,true,true,1.084
+SVN,Slovenia,false,2024,10.7838,Definition differs,2024,16.4266,Definition differs,true,true,1.078
+USA,United States,false,2023,10.6246,Estimated value,2022,16.9974,Definition differs; Estimated value; Unrevised breakdown not adding to the revised total,true,true,1.062
+JPN,Japan,false,2024,10.2102,Definition differs; Estimated value,2024,13.5938,Definition differs; Estimated value,true,true,1.021
+CHE,Switzerland,false,2023,10.1838,,2023,18.2344,,true,true,1.018
+EU27_2020,European Union (27 countries from 01/02/2020),true,2024,9.9516,Estimated value,2024,15.2985,Estimated value,true,true,0.995
+GRC,Greece,false,2024,9.8071,Definition differs; Provisional value,2024,13.3637,Definition differs; Provisional value,true,true,0.981
+OECD,OECD,true,2023,9.8037,Estimated value,2022,14.9334,Estimated value,true,true,0.98
+NZL,New Zealand,false,2023,9.619,,2023,14.085,,true,true,0.962
+HUN,Hungary,false,2024,9.2733,Definition differs; Provisional value,2024,12.4192,Definition differs; Provisional value,true,true,0.927
+GBR,United Kingdom,false,2017,9.2277,,2017,13.8683,,false,false,0.923
+CZE,Czechia,false,2024,8.9103,Provisional value,2024,15.5836,Provisional value,true,true,0.891
+AUS,Australia,false,2008,8.3807,,2008,12.4368,,false,false,0.838
+ESP,Spain,false,2024,8.3805,Definition differs; Provisional value,2024,13.4214,Definition differs; Provisional value,true,true,0.838
+SVK,Slovak Republic,false,2024,8.3244,Definition differs,2024,10.5506,Definition differs,true,true,0.832
+POL,Poland,false,2024,8.2448,Definition differs; Provisional value,2024,11.3788,Definition differs; Provisional value,true,true,0.824
+TUR,Türkiye,false,2024,7.756,Estimated value,2024,9.6146,Estimated value,true,true,0.776
+LTU,Lithuania,false,2024,7.1292,Provisional value,2024,9.8534,Provisional value,true,true,0.713
+ITA,Italy,false,2024,6.8061,Definition differs; Provisional value,2024,13.2393,Definition differs; Provisional value,true,true,0.681
+LUX,Luxembourg,false,2024,6.7487,Definition differs; Provisional value,2024,11.5453,Definition differs; Provisional value,true,true,0.675
+RUS,Russia,false,2020,5.6258,,2020,10.605,,true,true,0.563
+HRV,Croatia,false,2024,5.3078,Definition differs; Provisional value,2024,9.3831,Definition differs; Provisional value,true,true,0.531
+BGR,Bulgaria,false,2024,5.0022,Definition differs,2024,7.5233,Definition differs,true,true,0.5
+LVA,Latvia,false,2024,4.7779,Definition differs,2024,7.6918,Definition differs,true,true,0.478
+CHN,China (People’s Republic of),false,2024,4.3299,,2024,10.3063,,true,true,0.433
+ROU,Romania,false,2024,2.48,Definition differs; Provisional value,2024,4.2688,Definition differs; Provisional value,true,true,0.248
+ZAF,South Africa,false,2023,1.6702,,2023,2.682,,true,true,0.167
+CHL,Chile,false,2022,1.5619,Definition differs,2022,2.4807,Definition differs,true,true,0.156
+CRI,Costa Rica,false,2024,0.9695,Estimated value,,,,true,false,0.097
+MEX,Mexico,false,2017,0.7616,Estimated value,2017,1.2732,Estimated value,false,false,0.076
+ISR,Israel,false,,,,2012,21.2419,Definition differs; Estimated value,false,false,

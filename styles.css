@@ -66,3 +66,18 @@ code {
   background: #18332e;
   color: #ecf2ef;
 }
+
+/* The first category tag on each article (in its header and on listing cards)
+   is its primary topic: shown bold and red. Other tags keep the default style. */
+.quarto-categories .quarto-category:first-child,
+.listing-categories .listing-category:first-child {
+  color: #b3261e;
+  border-color: #b3261e;
+  font-weight: 700;
+}
+
+.quarto-dark .quarto-categories .quarto-category:first-child,
+.quarto-dark .listing-categories .listing-category:first-child {
+  color: #ff8a80;
+  border-color: #ff8a80;
+}

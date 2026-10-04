@@ -1,0 +1,29 @@
+- id: oecd-msti-rd-personnel
+  publisher: OECD, Directorate for Science, Technology and Innovation
+  title: "Main Science and Technology Indicators (MSTI) — researchers, R&D personnel and total employment"
+  dataflow: "OECD.STI.STP,DSD_MSTI@DF_MSTI"
+  measures:
+    T_RS: Researchers
+    T_TT: "R&D personnel (researchers, technicians and support staff)"
+    B_RS: Business enterprise sector researchers
+    G_RS: Government sector researchers
+    H_RS: Higher education sector researchers
+    TOT_EMP: Total employment
+  original_url: "https://sdmx.oecd.org/public/rest/data/OECD.STI.STP,DSD_MSTI@DF_MSTI,/.A.T_RS+T_TT+B_RS+G_RS+H_RS+TOT_EMP...?dimensionAtObservation=AllDimensions"
+  explorer_url: "https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_MSTI%40DF_MSTI&df[ag]=OECD.STI.STP"
+  methodology_url: "https://www.oecd.org/en/publications/frascati-manual-2015_9789264239012-en.html"
+  retrieved_at: "2026-09-30T03:12:43Z"
+  geographic_scope: "OECD members, the EU27 and OECD aggregates, and selected non-member economies"
+  temporal_scope: "1981–2025 in the retrieved snapshot (coverage varies by country)"
+  format: SDMX-CSV
+  terms_url: "https://www.oecd.org/en/about/terms-conditions.html"
+  notes: "The raw response is committed under data/raw. The OECD revises MSTI twice a year; historical values may change."
+
+- id: oecd-msti-structure
+  publisher: OECD, Directorate for Science, Technology and Innovation
+  title: "MSTI dataflow structure and codelists (labels for countries, measures and status flags)"
+  original_url: "https://sdmx.oecd.org/public/rest/dataflow/OECD.STI.STP/DSD_MSTI@DF_MSTI/latest?references=all"
+  retrieved_at: "2026-09-30T03:12:43Z"
+  format: SDMX-JSON
+  terms_url: "https://www.oecd.org/en/about/terms-conditions.html"
+  notes: "Used only to translate codes (e.g. KOR, E) into labels (Korea, Estimated value)."
