@@ -2,9 +2,14 @@
 title: "Philosophy"
 ---
 
-## What every investigation should contain
+## Style
 
-It is not always possible, but I try to make sure every investigation contains the following.
+1. *Transparency.* I want each investigation to be 
+
+
+## Checklist
+
+I try to make sure every investigation contains the following:
 
 1. *A source ledger.* Every dataset has a publisher, original URL, retrieval date, description, and license or terms link.
 2. *A preserved snapshot.* The exact raw input used for publication is committed whenever its terms and size allow it. Large or restricted files receive a checksum and durable archive location instead.
@@ -13,11 +18,11 @@ It is not always possible, but I try to make sure every investigation contains t
 5. *Reproducible outputs.* A single documented command rebuilds derived data and the site.
 6. *Limitations and uncertainty.* The article states what the evidence does not establish.
 
-## Evidence hierarchy
+### Evidence hierarchy
 
 Primary government and institutional sources are preferred. Mirrors and aggregators may aid discovery, but the article should link to the originating publisher whenever possible. A source's official status does not make it error-free; definitions, revisions, collection methods, and known limitations still require scrutiny.
 
-## Reproduction levels
+### Reproduction levels
 
 Each article declares one of these levels:
 

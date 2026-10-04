@@ -31,7 +31,7 @@ The workflow validates regenerated data, renders pull requests without publishin
 
 ## Start a new investigation
 
-Copy `investigations/us-population-growth` to a descriptive new folder. Keep the same evidence structure:
+Copy `investigations/oecd-rd-workforce` to a descriptive new folder as a template. Keep the same evidence structure:
 
 ```text
 investigations/your-investigation/
