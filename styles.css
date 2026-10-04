@@ -81,3 +81,112 @@ code {
   color: #ff8a80;
   border-color: #ff8a80;
 }
+
+/* Logic chain: a vertical sequence of boxed steps (.chain-step) joined by
+   connectors (.chain-link) that state the reasoning from one step to the next. */
+.logic-chain {
+  max-width: 42rem;
+  margin: 2rem 0 2.5rem;
+}
+
+.chain-step {
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--teal);
+  background: var(--bs-body-bg);
+}
+
+.chain-step p,
+.chain-link p {
+  margin: 0;
+}
+
+/* Hanging indent so wrapped lines align with the text, not the number badge. */
+.chain-step:has(.chain-num) p {
+  padding-left: 2.35rem;
+  text-indent: -2.35rem;
+}
+
+.chain-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  vertical-align: 0.05em;
+  text-indent: 0;  /* don't inherit the step's hanging indent */
+}
+
+.chain-link {
+  position: relative;
+  margin-left: calc(4px + 1.8rem - 1px);  /* centred under the number badges */
+  padding: 0.65rem 0 0.85rem 1.4rem;
+  border-left: 2px solid var(--rule);
+  color: #52615e;
+  font-size: 0.92rem;
+  font-style: italic;
+}
+
+/* Arrowhead at the bottom of each connector, pointing into the next step. */
+.chain-link::after {
+  content: "";
+  position: absolute;
+  left: -7px;
+  bottom: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid var(--rule);
+}
+
+.chain-label {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0 0.5rem;
+  border: 1px solid var(--teal);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.chain-label a {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.chain-given {
+  border-left-color: var(--amber);
+  background: #fbf3e8;
+}
+
+.chain-goal {
+  border: 2px solid var(--teal);
+  border-left-width: 4px;
+  background: #e8f0ed;
+}
+
+.quarto-dark .chain-link {
+  color: #a9b8b4;
+}
+
+.quarto-dark .chain-given {
+  background: #2e2619;
+}
+
+.quarto-dark .chain-goal {
+  background: #18332e;
+}
+
+.quarto-dark .chain-label a {
+  color: #6fc3b5;
+}
+
+.quarto-dark .chain-label {
+  border-color: #6fc3b5;
+}
